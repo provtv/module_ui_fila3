@@ -22,10 +22,19 @@ class AddressField extends Forms\Components\Field
         parent::setUp();
 
         $this->afterStateHydrated(function (AddressField $component, ?Model $record) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/dev
             if ($record === null) {
                 return;
             }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/dev
+>>>>>>> origin/dev
             $data = [
                 'country' => null,
                 'street' => null,
@@ -33,6 +42,10 @@ class AddressField extends Forms\Components\Field
                 'state' => null,
                 'zip' => null,
             ];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/dev
 
             $relationship = $this->getRelationship();
             if (!$relationship) {
@@ -41,6 +54,13 @@ class AddressField extends Forms\Components\Field
 
             $address = $record->getRelationValue($relationship);
             if ($address !== null && is_object($address) && method_exists($address, 'toArray')) {
+<<<<<<< HEAD
+=======
+=======
+            $address = $record->getRelationValue($this->getRelationship());
+            if (null !== $address && is_object($address) && method_exists($address, 'toArray')) {
+>>>>>>> origin/dev
+>>>>>>> origin/dev
                 $data = $address->toArray();
             }
 
@@ -61,6 +81,10 @@ class AddressField extends Forms\Components\Field
     {
         $state = $this->getState();
         $record = $this->getRecord();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/dev
         
         if ($record === null) {
             return;
@@ -80,6 +104,20 @@ class AddressField extends Forms\Components\Field
             $address->update($state);
         } else {
             $relation->updateOrCreate($state);
+<<<<<<< HEAD
+=======
+=======
+        $relationship = $record->{$this->getRelationship()}();
+
+        if (null === $relationship) {
+            return;
+        }
+        if ($address = $relationship->first()) {
+            $address->update($state);
+        } else {
+            $relationship->updateOrCreate($state);
+>>>>>>> origin/dev
+>>>>>>> origin/dev
         }
 
         $record->touch();
