@@ -22,10 +22,13 @@ class AddressField extends Forms\Components\Field
         parent::setUp();
 
         $this->afterStateHydrated(function (AddressField $component, ?Model $record) {
+<<<<<<< HEAD
             if ($record === null) {
                 return;
             }
 
+=======
+>>>>>>> origin/dev
             $data = [
                 'country' => null,
                 'street' => null,
@@ -33,6 +36,7 @@ class AddressField extends Forms\Components\Field
                 'state' => null,
                 'zip' => null,
             ];
+<<<<<<< HEAD
 
             $relationship = $this->getRelationship();
             if (!$relationship) {
@@ -41,6 +45,10 @@ class AddressField extends Forms\Components\Field
 
             $address = $record->getRelationValue($relationship);
             if ($address !== null && is_object($address) && method_exists($address, 'toArray')) {
+=======
+            $address = $record->getRelationValue($this->getRelationship());
+            if (null !== $address && is_object($address) && method_exists($address, 'toArray')) {
+>>>>>>> origin/dev
                 $data = $address->toArray();
             }
 
@@ -61,6 +69,7 @@ class AddressField extends Forms\Components\Field
     {
         $state = $this->getState();
         $record = $this->getRecord();
+<<<<<<< HEAD
         
         if ($record === null) {
             return;
@@ -80,6 +89,17 @@ class AddressField extends Forms\Components\Field
             $address->update($state);
         } else {
             $relation->updateOrCreate($state);
+=======
+        $relationship = $record->{$this->getRelationship()}();
+
+        if (null === $relationship) {
+            return;
+        }
+        if ($address = $relationship->first()) {
+            $address->update($state);
+        } else {
+            $relationship->updateOrCreate($state);
+>>>>>>> origin/dev
         }
 
         $record->touch();
