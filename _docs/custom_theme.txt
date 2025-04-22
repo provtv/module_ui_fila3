@@ -7,14 +7,22 @@ add resources/css/filament/admin/theme.css entry to vite.config.js
 
 in app/Providers/Filament/AdminPanelProvider.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 add 
 =======
 <<<<<<< HEAD
-add
 =======
+
+>>>>>>> 0080286 (.)
+add
+
 add 
+<<<<<<< HEAD
 >>>>>>> 14e0cd5 (.)
 >>>>>>> 57ac32d (.)
+=======
+ 14e0cd5 (.)
+>>>>>>> 0080286 (.)
 ->viteTheme('resources/css/filament/admin/theme.css')
 
 

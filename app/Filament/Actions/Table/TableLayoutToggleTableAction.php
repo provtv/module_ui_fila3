@@ -4,10 +4,14 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/dev
 namespace Modules\UI\app\Filament\Actions\Table;
+=======
+namespace Modules\UI\Filament\Actions\Table;
+>>>>>>> 0080286 (.)
 
 use Filament\Resources\Pages\ListRecords;
 use Filament\Tables\Actions\Action;
@@ -39,6 +43,7 @@ interface HasTableLayout
     public function setLayoutView(TableLayoutEnum $layout): void;
     public function resetTable(): void;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 class TableLayoutToggleTableAction extends Action
@@ -94,13 +99,14 @@ use Filament\Tables\Actions\Action;
 use Illuminate\Support\Facades\Session;
 use Modules\UI\Enums\TableLayoutEnum;
 >>>>>>> 14e0cd5 (.)
+=======
+>>>>>>> 0080286 (.)
 
 class TableLayoutToggleTableAction extends Action
 {
     protected function setUp(): void
     {
         parent::setUp();
-<<<<<<< HEAD
 
         $this
 >>>>>>> 57ac32d (.)
@@ -120,6 +126,7 @@ class TableLayoutToggleTableAction extends Action
 =======
 
         $livewire->setLayoutView($newLayout);
+<<<<<<< HEAD
 =======
         $current = $this->getCurrentLayout();
         $this
@@ -145,15 +152,17 @@ class TableLayoutToggleTableAction extends Action
         $livewire->layoutView = $newLayout;
 >>>>>>> 14e0cd5 (.)
 >>>>>>> 57ac32d (.)
+=======
+>>>>>>> 0080286 (.)
         $livewire->dispatch('$refresh');
         $livewire->dispatch('refreshTable');
         $livewire->resetTable();
     }
 
-<<<<<<< HEAD
     public static function make(?string $name = null): static
     {
         return parent::make($name ?? 'layout');
+<<<<<<< HEAD
 >>>>>>> origin/dev
 >>>>>>> origin/dev
 =======
@@ -176,5 +185,7 @@ class TableLayoutToggleTableAction extends Action
         return TableLayoutEnum::init();
 >>>>>>> 14e0cd5 (.)
 >>>>>>> 57ac32d (.)
+=======
+>>>>>>> 0080286 (.)
     }
 }

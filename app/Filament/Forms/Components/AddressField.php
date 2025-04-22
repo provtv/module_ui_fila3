@@ -24,15 +24,19 @@ class AddressField extends Forms\Components\Field
         $this->afterStateHydrated(function (AddressField $component, ?Model $record) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/dev
 =======
 >>>>>>> 57ac32d (.)
+=======
+>>>>>>> 0080286 (.)
             if ($record === null) {
                 return;
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -43,6 +47,8 @@ class AddressField extends Forms\Components\Field
 =======
 >>>>>>> 14e0cd5 (.)
 >>>>>>> 57ac32d (.)
+=======
+>>>>>>> 0080286 (.)
             $data = [
                 'country' => null,
                 'street' => null,
@@ -52,11 +58,14 @@ class AddressField extends Forms\Components\Field
             ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/dev
 =======
 >>>>>>> 57ac32d (.)
+=======
+>>>>>>> 0080286 (.)
 
             $relationship = $this->getRelationship();
             if (!$relationship) {
@@ -65,6 +74,7 @@ class AddressField extends Forms\Components\Field
 
             $address = $record->getRelationValue($relationship);
             if ($address !== null && is_object($address) && method_exists($address, 'toArray')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -79,6 +89,8 @@ class AddressField extends Forms\Components\Field
             if (null !== $address && is_object($address) && method_exists($address, 'toArray')) {
 >>>>>>> 14e0cd5 (.)
 >>>>>>> 57ac32d (.)
+=======
+>>>>>>> 0080286 (.)
                 $data = $address->toArray();
             }
 
@@ -101,11 +113,14 @@ class AddressField extends Forms\Components\Field
         $record = $this->getRecord();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/dev
         
 =======
+=======
+>>>>>>> 0080286 (.)
 
 >>>>>>> 57ac32d (.)
         if ($record === null) {
@@ -135,6 +150,7 @@ class AddressField extends Forms\Components\Field
         }
 
         $record->touch();
+<<<<<<< HEAD
 =======
         $relationship = $record?->{$this->getRelationship()}();
 >>>>>>> 57ac32d (.)
@@ -158,6 +174,8 @@ class AddressField extends Forms\Components\Field
         $record?->touch();
 >>>>>>> 14e0cd5 (.)
 >>>>>>> 57ac32d (.)
+=======
+>>>>>>> 0080286 (.)
     }
 
     public function getChildComponents(): array
@@ -168,10 +186,10 @@ class AddressField extends Forms\Components\Field
                     Forms\Components\Select::make('country')
                         ->searchable(),
                     // ->getSearchResultsUsing(fn (string $query) => Country::where('name', 'like', "%{$query}%")->pluck('name', 'id'))
-<<<<<<< HEAD
                     // ->getOptionLabelUsing(fn ($value): ?string => Country::firstWhere('id', $value)->getAttribute('name')),
                 ]),
             Forms\Components\TextInput::make('street')
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -185,12 +203,15 @@ class AddressField extends Forms\Components\Field
 
 >>>>>>> 14e0cd5 (.)
 >>>>>>> 57ac32d (.)
+=======
+>>>>>>> 0080286 (.)
                 ->maxLength(255),
             Forms\Components\Grid::make(3)
                 ->schema([
                     Forms\Components\TextInput::make('city')
                         ->maxLength(255),
                     Forms\Components\TextInput::make('state')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -206,6 +227,10 @@ class AddressField extends Forms\Components\Field
 =======
 >>>>>>> 14e0cd5 (.)
 >>>>>>> 57ac32d (.)
+=======
+                        ->maxLength(255),
+                    Forms\Components\TextInput::make('zip')
+>>>>>>> 0080286 (.)
                         ->maxLength(255),
                 ]),
         ];
