@@ -20,19 +20,25 @@ class Block extends Component
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     public function __construct(
         public array $block,
         public ?Model $model = null,
         public string $tpl = '',
     ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
         $view = Arr::get($this->block, 'data.view', null);
         if (null == $view) {
             $view = 'ui::empty';

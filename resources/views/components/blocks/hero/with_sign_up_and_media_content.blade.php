@@ -1,11 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <!--
 >>>>>>> 0238e98d (.)
 =======
 <!--
 >>>>>>> da8a6bc2 (.)
+=======
+<!--
+>>>>>>> d3afd1fe (.)
   This example requires some changes to your config:
 
   ```
@@ -110,6 +114,7 @@
               <span class="mt-1 block text-4xl font-bold tracking-tight sm:text-5xl xl:text-6xl">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <span class="block text-gray-900">Data to enrich your</span>
 =======
                 <span class="block text-gray-900">Data to enrich your3</span>
@@ -117,6 +122,9 @@
 =======
                 <span class="block text-gray-900">Data to enrich your</span>
 >>>>>>> da8a6bc2 (.)
+=======
+                <span class="block text-gray-900">Data to enrich your</span>
+>>>>>>> d3afd1fe (.)
                 <span class="block text-indigo-600">online business</span>
               </span>
             </h1>
@@ -163,9 +171,13 @@
   </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
 >>>>>>> 0238e98d (.)
 =======
   
 >>>>>>> da8a6bc2 (.)
+=======
+  
+>>>>>>> d3afd1fe (.)

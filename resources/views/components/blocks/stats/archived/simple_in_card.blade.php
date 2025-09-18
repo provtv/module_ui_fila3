@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="bg-gray-50 pt-12 sm:pt-16">
 =======
 <div class="bg-gray-50 pt-12 sm:pt-16">
@@ -7,6 +8,9 @@ class="bg-gray-50 pt-12 sm:pt-16">
 =======
 <div class="bg-gray-50 pt-12 sm:pt-16">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="bg-gray-50 pt-12 sm:pt-16">
+>>>>>>> d3afd1fe (.)
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-4xl text-center">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Trusted by developers from over 80 planets</h2>

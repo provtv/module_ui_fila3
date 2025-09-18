@@ -1,11 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 @php
 >>>>>>> 0238e98d (.)
 =======
 @php
 >>>>>>> da8a6bc2 (.)
+=======
+@php
+>>>>>>> d3afd1fe (.)
     $disableNewRecordCreation = $disableNewRecordCreation ?? false;
     $disableNewChildRecordCreation = $disableNewChildRecordCreation ?? false;
     $disableRecordDeletion = $disableRecordDeletion ?? false;

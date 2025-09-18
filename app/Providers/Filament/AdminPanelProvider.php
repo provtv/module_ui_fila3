@@ -7,6 +7,7 @@ namespace Modules\UI\Providers\Filament;
 use Filament\Panel;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\Assets\Js;
 use Filament\Support\Assets\Css;
 use Filament\Support\Facades\FilamentAsset;
@@ -16,14 +17,19 @@ use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
@@ -33,11 +39,14 @@ class AdminPanelProvider extends XotBasePanelProvider
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $panel=parent::panel($panel);
 =======
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
         // FilamentAsset::register(
         //     [
         //         Css::make('filament-navigation-styles', __DIR__.'/../../resources/dist/plugin.css'),
@@ -45,6 +54,7 @@ class AdminPanelProvider extends XotBasePanelProvider
         //     ],
         //     'filament-navigation'
         // );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         /*
@@ -69,5 +79,9 @@ class AdminPanelProvider extends XotBasePanelProvider
 
         return parent::panel($panel);
 >>>>>>> da8a6bc2 (.)
+=======
+
+        return parent::panel($panel);
+>>>>>>> d3afd1fe (.)
     }
 }

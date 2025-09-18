@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -13,6 +14,9 @@ return array (
 =======
 <?php return array (
 >>>>>>> da8a6bc2 (.)
+=======
+<?php return array (
+>>>>>>> d3afd1fe (.)
   'fields' => 
   array (
     'lavoratore' => 
@@ -31,6 +35,7 @@ return array (
     array (
       'label' => 'periodo',
     ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     'info' => 
@@ -59,3 +64,7 @@ return array (
   ),
 );
 >>>>>>> da8a6bc2 (.)
+=======
+  ),
+);
+>>>>>>> d3afd1fe (.)

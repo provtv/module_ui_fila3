@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="bg-white">
 =======
 <div class="bg-white">
@@ -7,6 +8,9 @@ class="bg-white">
 =======
 <div class="bg-white">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="bg-white">
+>>>>>>> d3afd1fe (.)
     {{--
     <header>
       <div class="relative bg-white">

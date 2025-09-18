@@ -17,6 +17,7 @@ class GetAllIconsAction
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array
      */
     public function execute(): void {
@@ -50,6 +51,8 @@ class GetAllIconsAction
 >>>>>>> 0238e98d (.)
 
 =======
+=======
+>>>>>>> d3afd1fe (.)
      * @return array
      */
     public function execute(string $context = 'form')
@@ -67,13 +70,17 @@ class GetAllIconsAction
          *   ]
         ]
          */
+<<<<<<< HEAD
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
         $icons = Arr::map($icons, function (array $set, array|string $name) {
             $set['name'] = $name;
             $icons = [];
 
             foreach ($set['paths'] as $path) {
                 foreach (File::allFiles($path) as $file) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     // Simply ignore files that aren't SVGs
@@ -83,10 +90,14 @@ class GetAllIconsAction
 =======
                     // Simply ignore files that aren't SVGs
 >>>>>>> da8a6bc2 (.)
+=======
+                    // Simply ignore files that aren't SVGs
+>>>>>>> d3afd1fe (.)
                     if ('svg' !== $file->getExtension()) {
                         continue;
                     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
@@ -95,6 +106,9 @@ class GetAllIconsAction
 =======
                     // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
 >>>>>>> da8a6bc2 (.)
+=======
+                    // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
+>>>>>>> d3afd1fe (.)
                     $iconName = str($file->getPathname())
                         ->after($path.DIRECTORY_SEPARATOR)
                         ->replace(DIRECTORY_SEPARATOR, '.')

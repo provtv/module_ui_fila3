@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://flowbite.com/docs/components/carousel/#controls --}}
 =======
 {{-- https://flowbite.com/docs/components/carousel/#controls --}}
@@ -7,6 +8,9 @@ https://flowbite.com/docs/components/carousel/#controls --}}
 =======
 {{-- https://flowbite.com/docs/components/carousel/#controls --}}
 >>>>>>> da8a6bc2 (.)
+=======
+{{-- https://flowbite.com/docs/components/carousel/#controls --}}
+>>>>>>> d3afd1fe (.)
 
 
 <div id="controls-carousel" class="relative w-full" data-carousel="static">

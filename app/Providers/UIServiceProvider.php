@@ -6,6 +6,7 @@ namespace Modules\UI\Providers;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\realpath;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Foundation\AliasLoader;
@@ -38,6 +39,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\Facades\Blade;
 use Modules\UI\Services\UIService;
@@ -53,14 +56,18 @@ class UIServiceProvider extends XotBaseServiceProvider
     public string $name = 'UI';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * Boot del service provider.
@@ -74,10 +81,14 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
      * Undocumented function.
 >>>>>>> da8a6bc2 (.)
+=======
+     * Undocumented function.
+>>>>>>> d3afd1fe (.)
      */
     public function boot(): void
     {
         parent::boot();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         
@@ -109,6 +120,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 
         $relativePath = config('modules.paths.generator.component-view.path');
         $components_path = module_path($this->name, $relativePath);
@@ -124,8 +137,11 @@ class UIServiceProvider extends XotBaseServiceProvider
         // $loader->alias('ui', UIService::class);
         // $this->registerBladeIcons(); //moved to XotBaseServiceProvider
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     }
 }

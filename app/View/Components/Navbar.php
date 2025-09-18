@@ -17,19 +17,25 @@ class Navbar extends Component
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     public function __construct(
         // public Post $article,
         // public bool $showAuthor = false,
         // public string $tpl = 'v1'
     ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     }
 
     public function render(): Renderable

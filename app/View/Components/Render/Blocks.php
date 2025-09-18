@@ -25,6 +25,7 @@ class Blocks extends Component
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
     public function __construct(?array $blocks = [], public ?Model $model = null, public string $tpl = 'v1')
@@ -34,6 +35,10 @@ class Blocks extends Component
     public function __construct(?array $blocks = [], public ?Model $model = null, public string $tpl = 'v1')
     {
 >>>>>>> da8a6bc2 (.)
+=======
+    public function __construct(?array $blocks = [], public ?Model $model = null, public string $tpl = 'v1')
+    {
+>>>>>>> d3afd1fe (.)
         if (is_array($blocks)) {
             $this->blocks = $blocks;
         }

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['blocks'])
 =======
 @props(['blocks'])
@@ -7,6 +8,9 @@ s(['blocks'])
 =======
 @props(['blocks'])
 >>>>>>> da8a6bc2 (.)
+=======
+@props(['blocks'])
+>>>>>>> d3afd1fe (.)
 
 @foreach ($blocks as $block)
     <x-render.block :block="$block" :model="$model" tpl="v2"/>

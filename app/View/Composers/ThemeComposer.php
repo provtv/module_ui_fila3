@@ -23,6 +23,7 @@ class ThemeComposer
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function metatag(): void {
 =======
     public function metatag($index)
@@ -32,6 +33,10 @@ class ThemeComposer
     public function metatag($index)
     {
 >>>>>>> da8a6bc2 (.)
+=======
+    public function metatag($index)
+    {
+>>>>>>> d3afd1fe (.)
         // $ris = self::__getStatic($index);
         // echo '<br/>['.$index.']['.$ris.']';
         // if ('' === $ris || null === $ris) {

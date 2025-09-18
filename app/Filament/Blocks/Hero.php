@@ -6,8 +6,11 @@ namespace Modules\UI\Filament\Blocks;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Repeater;
@@ -19,6 +22,7 @@ use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 
 class Hero
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Filament\Forms\Components\Select;
@@ -37,6 +41,8 @@ class Hero extends XotBaseBlock
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     public static function make(
         string $name = 'hero',
         string $context = 'form',
@@ -57,8 +63,11 @@ class Hero extends XotBaseBlock
                         ->preserveFilenames(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
                     /*
                     RadioImage::make('view')
                         ->options($options),
@@ -68,10 +77,13 @@ class Hero extends XotBaseBlock
                         ->options($views),
                     //*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
                     Repeater::make('buttons')
                         ->schema([
                             TextInput::make('label')->required(),
@@ -82,6 +94,7 @@ class Hero extends XotBaseBlock
                 ]
             );
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -108,4 +121,6 @@ class Hero extends XotBaseBlock
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 }

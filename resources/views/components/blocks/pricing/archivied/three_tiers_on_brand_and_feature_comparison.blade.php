@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="bg-gray-50">
 =======
 <div class="bg-gray-50">
@@ -7,6 +8,9 @@ class="bg-gray-50">
 =======
 <div class="bg-gray-50">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="bg-gray-50">
+>>>>>>> d3afd1fe (.)
     <div class="relative bg-indigo-600">
       <!-- Overlapping background -->
       <div aria-hidden="true" class="absolute bottom-0 hidden h-6 w-full bg-gray-50 lg:block"></div>

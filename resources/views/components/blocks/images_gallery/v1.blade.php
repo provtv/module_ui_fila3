@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['data'])
 =======
 @props(['data'])
@@ -7,6 +8,9 @@ s(['data'])
 =======
 @props(['data'])
 >>>>>>> da8a6bc2 (.)
+=======
+@props(['data'])
+>>>>>>> d3afd1fe (.)
 
 <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto flex flex-wrap">

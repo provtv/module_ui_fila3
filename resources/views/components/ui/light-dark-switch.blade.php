@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 on 
 =======
 <button 
@@ -7,6 +8,9 @@ on
 =======
 <button 
 >>>>>>> da8a6bc2 (.)
+=======
+<button 
+>>>>>>> d3afd1fe (.)
     x-data="{
         darkMode: $persist(false).as('dark_mode'),
         toggleDarkMode(){

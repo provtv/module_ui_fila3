@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="relative overflow-hidden bg-gray-50">
 =======
 <div class="relative overflow-hidden bg-gray-50">
@@ -7,6 +8,9 @@ class="relative overflow-hidden bg-gray-50">
 =======
 <div class="relative overflow-hidden bg-gray-50">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="relative overflow-hidden bg-gray-50">
+>>>>>>> d3afd1fe (.)
     <div class="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full" aria-hidden="true">
       <div class="relative mx-auto h-full max-w-7xl">
         <svg class="absolute right-full translate-x-1/4 translate-y-1/4 transform lg:translate-x-1/2" width="404" height="784" fill="none" viewBox="0 0 404 784">
@@ -107,6 +111,7 @@ class="relative overflow-hidden bg-gray-50">
           <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <span class="block xl:inline">Data to enrich your</span>
 =======
             <span class="block xl:inline">Data to enrich your1</span>
@@ -114,6 +119,9 @@ class="relative overflow-hidden bg-gray-50">
 =======
             <span class="block xl:inline">Data to enrich your</span>
 >>>>>>> da8a6bc2 (.)
+=======
+            <span class="block xl:inline">Data to enrich your</span>
+>>>>>>> d3afd1fe (.)
             <span class="block text-indigo-600 xl:inline">online business</span>
           </h1>
           <p class="mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
@@ -131,9 +139,13 @@ class="relative overflow-hidden bg-gray-50">
   </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
 >>>>>>> 0238e98d (.)
 =======
   
 >>>>>>> da8a6bc2 (.)
+=======
+  
+>>>>>>> d3afd1fe (.)

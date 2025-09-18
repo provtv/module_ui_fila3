@@ -34,6 +34,7 @@ $page->navigation
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 
@@ -55,3 +56,5 @@ $page->navigation
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)

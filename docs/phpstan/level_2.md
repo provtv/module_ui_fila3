@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -13,6 +14,8 @@
 >>>>>>> aurmich/dev
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 # Rapporto PHPStan Livello 2 per il modulo UI
 
 Data analisi: 2025-04-15 22:00:46
@@ -20,6 +23,7 @@ Data analisi: 2025-04-15 22:00:46
 🎉 **Congratulazioni!** Nessun errore trovato a questo livello.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 aurmich/dev
 =======
 <<<<<<< HEAD
@@ -33,3 +37,5 @@ aurmich/dev
 >>>>>>> aurmich/dev
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)

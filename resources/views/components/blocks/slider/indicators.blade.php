@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://flowbite.com/docs/components/carousel/#indicators --}}
 =======
 {{-- https://flowbite.com/docs/components/carousel/#indicators --}}
@@ -7,6 +8,9 @@ https://flowbite.com/docs/components/carousel/#indicators --}}
 =======
 {{-- https://flowbite.com/docs/components/carousel/#indicators --}}
 >>>>>>> da8a6bc2 (.)
+=======
+{{-- https://flowbite.com/docs/components/carousel/#indicators --}}
+>>>>>>> d3afd1fe (.)
 
 
 <div id="indicators-carousel" class="relative w-full" data-carousel="static">

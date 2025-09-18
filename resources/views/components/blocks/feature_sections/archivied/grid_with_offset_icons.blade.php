@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="relative bg-white py-24 sm:py-32 lg:py-40">
 =======
 <div class="relative bg-white py-24 sm:py-32 lg:py-40">
@@ -7,6 +8,9 @@ class="relative bg-white py-24 sm:py-32 lg:py-40">
 =======
 <div class="relative bg-white py-24 sm:py-32 lg:py-40">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="relative bg-white py-24 sm:py-32 lg:py-40">
+>>>>>>> d3afd1fe (.)
     <div class="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
       <h2 class="text-lg font-semibold text-indigo-600">Deploy faster</h2>
       <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Everything you need to deploy your app</p>

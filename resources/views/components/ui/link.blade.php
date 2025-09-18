@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   {{ $attributes->except('wire:navigate') }}
 =======
 <a
@@ -9,6 +10,10 @@
 <a
     {{ $attributes->except('wire:navigate') }}
 >>>>>>> da8a6bc2 (.)
+=======
+<a
+    {{ $attributes->except('wire:navigate') }}
+>>>>>>> d3afd1fe (.)
     wire:navigate
 >
 {{ $slot }}

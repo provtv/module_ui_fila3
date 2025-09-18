@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ==============================================
 # LARAXOT MODULE UI - .GITIGNORE
 # ==============================================
@@ -148,6 +149,8 @@ design_notes.txt
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 /vendor
 *.lock
 /build
@@ -189,9 +192,12 @@ cache/
 *.exe
 *:Zone.Identifier
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # File di log
 *.log
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)

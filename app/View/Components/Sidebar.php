@@ -13,18 +13,24 @@ class Sidebar extends Component
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     public function __construct(
         public Collection $collection,
         // public string $tpl = 'v1'
     ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     }
 
     /**

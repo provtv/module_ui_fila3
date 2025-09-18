@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="bg-white">
 =======
 <div class="bg-white">
@@ -7,6 +8,9 @@ class="bg-white">
 =======
 <div class="bg-white">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="bg-white">
+>>>>>>> d3afd1fe (.)
     <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Boost your productivity.<br>Start using our app today.</h2>
       <div class="mt-10 flex items-center gap-x-6">

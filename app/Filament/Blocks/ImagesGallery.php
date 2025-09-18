@@ -6,8 +6,11 @@ namespace Modules\UI\Filament\Blocks;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\Select;
@@ -22,6 +25,7 @@ class ImagesGallery
     ): Block {
         return Block::make($name)
             ->schema([
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Filament\Forms\Components\Select;
@@ -39,6 +43,8 @@ class ImagesGallery extends XotBaseBlock
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
                 Repeater::make('gallery')
                     ->schema([
                         SpatieMediaLibraryFileUpload::make('image')
@@ -98,6 +104,7 @@ class ImagesGallery extends XotBaseBlock
                 //     ->columnSpanFull(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ])
             ->columns('form' === $context ? 2 : 1);
 =======
@@ -107,6 +114,10 @@ class ImagesGallery extends XotBaseBlock
             ])
             ->columns('form' === $context ? 2 : 1);
 >>>>>>> da8a6bc2 (.)
+=======
+            ])
+            ->columns('form' === $context ? 2 : 1);
+>>>>>>> d3afd1fe (.)
     }
 
     public static function getRatios(): array

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="bg-white py-20 sm:py-24 lg:py-32">
 =======
 <div class="bg-white py-20 sm:py-24 lg:py-32">
@@ -7,6 +8,9 @@ class="bg-white py-20 sm:py-24 lg:py-32">
 =======
 <div class="bg-white py-20 sm:py-24 lg:py-32">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="bg-white py-20 sm:py-24 lg:py-32">
+>>>>>>> d3afd1fe (.)
     <div class="mx-auto max-w-xl px-6 lg:max-w-7xl lg:px-8">
       <h2 class="sr-only">A better way to send money.</h2>
       <dl class="grid grid-cols-1 gap-16 lg:grid lg:grid-cols-3">

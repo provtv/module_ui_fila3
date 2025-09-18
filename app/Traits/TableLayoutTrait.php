@@ -2,7 +2,11 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\UI\Traits;
+=======
+namespace Modules\UI\app\Traits;
+>>>>>>> d3afd1fe (.)
 
 use Illuminate\Support\Facades\Session;
 use Modules\UI\Enums\TableLayout;
@@ -30,6 +34,7 @@ trait TableLayoutTrait
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
@@ -37,11 +42,15 @@ trait TableLayoutTrait
 =======
     
 >>>>>>> da8a6bc2 (.)
+=======
+    
+>>>>>>> d3afd1fe (.)
     public function resetTable(): void
     {
         // Implementazione predefinita - le classi che usano questo trait dovrebbero sovrascrivere questo metodo
         $this->dispatch('reset-table');
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 } 
@@ -51,3 +60,6 @@ trait TableLayoutTrait
 =======
 } 
 >>>>>>> da8a6bc2 (.)
+=======
+} 
+>>>>>>> d3afd1fe (.)

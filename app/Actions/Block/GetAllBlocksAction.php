@@ -55,6 +55,7 @@ class GetAllBlocksAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $blocks = Arr::where($blocks, function ($block) {
             return !in_array($block['name'], ['xot_base', 'xot_base_block']);
@@ -63,6 +64,8 @@ class GetAllBlocksAction
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
         return ComponentFileData::collection($blocks);
     }
 }

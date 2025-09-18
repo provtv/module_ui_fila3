@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="relative bg-white">
 =======
 <div class="relative bg-white">
@@ -7,6 +8,9 @@ class="relative bg-white">
 =======
 <div class="relative bg-white">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="relative bg-white">
+>>>>>>> d3afd1fe (.)
     <div class="h-56 bg-indigo-600 sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
       <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="Support team">
     </div>

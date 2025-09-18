@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 lament-widgets::widget>
 =======
 <x-filament-widgets::widget>
@@ -7,6 +8,9 @@ lament-widgets::widget>
 =======
 <x-filament-widgets::widget>
 >>>>>>> da8a6bc2 (.)
+=======
+<x-filament-widgets::widget>
+>>>>>>> d3afd1fe (.)
     <x-filament::section collapsible>
         <x-filament::grid lg='2'>
             <x-filament::grid.column >

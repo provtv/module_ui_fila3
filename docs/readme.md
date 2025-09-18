@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
@@ -540,6 +541,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 # Modulo UI
 
 ## Panoramica
@@ -594,8 +597,12 @@ Il modulo UI fornisce componenti e layout standardizzati per l'interfaccia utent
 - Alpine.js
 - Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Livewire 
 >>>>>>> 0238e98d (.)
 =======
 - Livewire 
 >>>>>>> da8a6bc2 (.)
+=======
+- Livewire 
+>>>>>>> d3afd1fe (.)

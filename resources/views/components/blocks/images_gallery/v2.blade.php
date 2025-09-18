@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ry versione 2
 =======
 gallery versione 2
@@ -7,3 +8,6 @@ gallery versione 2
 =======
 gallery versione 2
 >>>>>>> da8a6bc2 (.)
+=======
+gallery versione 2
+>>>>>>> d3afd1fe (.)

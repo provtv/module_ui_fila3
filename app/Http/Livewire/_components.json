@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [{"name":"dark-mode-switcher","class":"DarkModeSwitcher","module":null,"path":null,"ns":"Modules\\UI\\Http\\Livewire\\DarkModeSwitcher"},{"name":"toast","class":"Toast","module":null,"path":null,"ns":"Modules\\UI\\Http\\Livewire\\Toast"}]
 =======
 =======
@@ -25,3 +26,6 @@
 =======
 ]
 >>>>>>> da8a6bc2 (.)
+=======
+[{"name":"toast","class":"Toast","module":null,"path":null,"ns":"Modules\\UI\\Http\\Livewire\\Toast"}]
+>>>>>>> d3afd1fe (.)

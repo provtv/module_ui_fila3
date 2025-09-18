@@ -11,8 +11,11 @@ use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 use Modules\Xot\Actions\View\GetViewsSiblingsAndSelfAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 
 class Slider
 {
@@ -31,6 +34,7 @@ class Slider
             ->schema(
                 [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
@@ -46,6 +50,8 @@ class Slider extends XotBaseBlock
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
                     TextInput::make('method')
 
                         ->hint('Inserisci il nome del metodo da richiamare nel tema')
@@ -59,6 +65,7 @@ class Slider extends XotBaseBlock
                     RadioImage::make('view')
                         ->options($options),
                 ]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             )
@@ -86,4 +93,9 @@ class Slider extends XotBaseBlock
             ->columns(1);
     }
 >>>>>>> da8a6bc2 (.)
+=======
+            )
+            ->columns(1);
+    }
+>>>>>>> d3afd1fe (.)
 }

@@ -14,6 +14,7 @@ class GroupWidget extends XotBaseWidget
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getFormSchema() :array {
         return [];
     }
@@ -22,4 +23,6 @@ class GroupWidget extends XotBaseWidget
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 }

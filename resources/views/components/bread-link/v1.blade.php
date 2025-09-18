@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['active'])
 =======
 @props(['active'])
@@ -7,6 +8,9 @@ s(['active'])
 =======
 @props(['active'])
 >>>>>>> da8a6bc2 (.)
+=======
+@props(['active'])
+>>>>>>> d3afd1fe (.)
 
 @php
 $classes = ($active ?? false)

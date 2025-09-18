@@ -1,11 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <!--
 >>>>>>> 0238e98d (.)
 =======
 <!--
 >>>>>>> da8a6bc2 (.)
+=======
+<!--
+>>>>>>> d3afd1fe (.)
   This example requires some changes to your config:
 
   ```

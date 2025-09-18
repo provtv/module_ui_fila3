@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="isolate overflow-hidden bg-gray-900">
 =======
 <div class="isolate overflow-hidden bg-gray-900">
@@ -7,6 +8,9 @@ class="isolate overflow-hidden bg-gray-900">
 =======
 <div class="isolate overflow-hidden bg-gray-900">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="isolate overflow-hidden bg-gray-900">
+>>>>>>> d3afd1fe (.)
     <div class="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">
       <div class="mx-auto max-w-4xl">
         <h2 class="text-base font-semibold leading-7 text-indigo-400">Pricing</h2>

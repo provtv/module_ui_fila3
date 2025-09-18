@@ -6,8 +6,11 @@ namespace Modules\UI\Filament\Blocks;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
@@ -32,6 +35,7 @@ class Paragraph
             ->schema(
                 [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -54,6 +58,8 @@ class Paragraph extends XotBaseBlock
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
                     TextInput::make('title'),
                     RichEditor::make('text'),
                     Select::make('view')
@@ -63,6 +69,7 @@ class Paragraph extends XotBaseBlock
                 ]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             );
 =======
             ;
@@ -70,5 +77,8 @@ class Paragraph extends XotBaseBlock
 =======
             );
 >>>>>>> da8a6bc2 (.)
+=======
+            );
+>>>>>>> d3afd1fe (.)
     }
 }

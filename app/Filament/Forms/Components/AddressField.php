@@ -24,17 +24,23 @@ class AddressField extends Forms\Components\Field
         $this->afterStateHydrated(function (AddressField $component, ?Model $record) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
             if ($record === null) {
                 return;
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
             $data = [
                 'country' => null,
                 'street' => null,
@@ -42,6 +48,7 @@ class AddressField extends Forms\Components\Field
                 'state' => null,
                 'zip' => null,
             ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             
@@ -57,6 +64,8 @@ class AddressField extends Forms\Components\Field
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 
             $relationship = $this->getRelationship();
             if (!$relationship) {
@@ -70,9 +79,12 @@ class AddressField extends Forms\Components\Field
 
             $component->state($data);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
         });
 
         $this->dehydrated(false);
@@ -91,6 +103,7 @@ class AddressField extends Forms\Components\Field
         $record = $this->getRecord();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $relationship = $record->{$this->getRelationship()}();
 
         if (null === $relationship) {
@@ -106,6 +119,8 @@ class AddressField extends Forms\Components\Field
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 
         if ($record === null) {
             return;
@@ -129,9 +144,12 @@ class AddressField extends Forms\Components\Field
 
         $record->touch();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     }
 
     public function getChildComponents(): array
@@ -147,11 +165,14 @@ class AddressField extends Forms\Components\Field
             Forms\Components\TextInput::make('street')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
                 ->maxLength(255),
             Forms\Components\Grid::make(3)
                 ->schema([
@@ -160,6 +181,7 @@ class AddressField extends Forms\Components\Field
                     Forms\Components\TextInput::make('state')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                         ->maxLength(255),
                     Forms\Components\TextInput::make('zip')
@@ -172,6 +194,10 @@ class AddressField extends Forms\Components\Field
                         ->maxLength(255),
                     Forms\Components\TextInput::make('zip')
 >>>>>>> da8a6bc2 (.)
+=======
+                        ->maxLength(255),
+                    Forms\Components\TextInput::make('zip')
+>>>>>>> d3afd1fe (.)
                         ->maxLength(255),
                 ]),
         ];

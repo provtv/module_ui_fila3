@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="relative bg-gray-900">
 =======
 <div class="relative bg-gray-900">
@@ -7,6 +8,9 @@ class="relative bg-gray-900">
 =======
 <div class="relative bg-gray-900">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="relative bg-gray-900">
+>>>>>>> d3afd1fe (.)
     <div class="absolute bottom-0 h-80 w-full xl:inset-0 xl:h-full">
       <div class="h-full w-full xl:grid xl:grid-cols-2">
         <div class="h-full xl:relative xl:col-start-2">

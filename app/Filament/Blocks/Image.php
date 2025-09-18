@@ -6,8 +6,11 @@ namespace Modules\UI\Filament\Blocks;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Select;
@@ -22,6 +25,7 @@ class Image
         return Block::make($name)
             ->schema(
                 [
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Filament\Forms\Components\Select;
@@ -40,6 +44,8 @@ class Image extends XotBaseBlock
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
                     FileUpload::make('image'),
 
                     TextInput::make('url'),
@@ -55,6 +61,7 @@ class Image extends XotBaseBlock
                         ->columnSpanFull(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ]
             )
             ->columns('form' === $context ? 2 : 1);
@@ -67,6 +74,11 @@ class Image extends XotBaseBlock
             )
             ->columns('form' === $context ? 2 : 1);
 >>>>>>> da8a6bc2 (.)
+=======
+                ]
+            )
+            ->columns('form' === $context ? 2 : 1);
+>>>>>>> d3afd1fe (.)
     }
 
     public static function getRatios(): array
@@ -88,6 +100,7 @@ class Image extends XotBaseBlock
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public static function getFormSchema(): array
     {
@@ -106,4 +119,6 @@ class Image extends XotBaseBlock
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 }

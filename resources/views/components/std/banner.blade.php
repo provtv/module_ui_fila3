@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['image' => ''])
 =======
 @props(['image' => ''])
@@ -7,6 +8,9 @@ s(['image' => ''])
 =======
 @props(['image' => ''])
 >>>>>>> da8a6bc2 (.)
+=======
+@props(['image' => ''])
+>>>>>>> d3afd1fe (.)
 
 @php
     $background = $image ? 'bg-black' : 'bg-gray-100';

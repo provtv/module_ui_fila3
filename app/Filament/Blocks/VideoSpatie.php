@@ -18,8 +18,11 @@ use Spatie\MediaLibrary\HasMedia;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 
 class VideoSpatie
 {
@@ -30,6 +33,7 @@ class VideoSpatie
         return Block::make($name)
 
             ->schema([
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Blocks\XotBaseBlock;
@@ -43,6 +47,8 @@ class VideoSpatie extends XotBaseBlock
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
                 Hidden::make('img_uuid')
                     ->default(fn () => Str::uuid()->toString())
                     ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
@@ -97,6 +103,7 @@ class VideoSpatie extends XotBaseBlock
                 // Forms\Components\SpatieMediaLibraryFileUpload::make('media_id')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ])
             ->columns('form' === $context ? 2 : 1);
 =======
@@ -106,6 +113,10 @@ class VideoSpatie extends XotBaseBlock
             ])
             ->columns('form' === $context ? 2 : 1);
 >>>>>>> da8a6bc2 (.)
+=======
+            ])
+            ->columns('form' === $context ? 2 : 1);
+>>>>>>> d3afd1fe (.)
     }
 
     public static function getRatios(): array

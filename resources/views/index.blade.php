@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 nds('ui::layouts.master')
 =======
 @extends('ui::layouts.master')
@@ -7,6 +8,9 @@ nds('ui::layouts.master')
 =======
 @extends('ui::layouts.master')
 >>>>>>> da8a6bc2 (.)
+=======
+@extends('ui::layouts.master')
+>>>>>>> d3afd1fe (.)
 
 @section('content')
     <h1>Hello World</h1>

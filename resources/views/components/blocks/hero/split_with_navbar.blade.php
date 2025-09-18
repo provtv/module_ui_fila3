@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="relative bg-gray-50">
 =======
 <div class="relative bg-gray-50">
@@ -7,6 +8,9 @@ class="relative bg-gray-50">
 =======
 <div class="relative bg-gray-50">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="relative bg-gray-50">
+>>>>>>> d3afd1fe (.)
     <div class="relative bg-white shadow">
       <div class="mx-auto max-w-7xl px-6">
         <div class="flex items-center justify-between py-6 md:justify-start md:space-x-10">
@@ -303,6 +307,7 @@ class="relative bg-gray-50">
           <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <span class="block xl:inline">Data to enrich your</span>
 =======
             <span class="block xl:inline">Data to enrich your2</span>
@@ -310,6 +315,9 @@ class="relative bg-gray-50">
 =======
             <span class="block xl:inline">Data to enrich your</span>
 >>>>>>> da8a6bc2 (.)
+=======
+            <span class="block xl:inline">Data to enrich your</span>
+>>>>>>> d3afd1fe (.)
             <span class="block text-indigo-600 xl:inline">online business</span>
           </h1>
           <p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
@@ -330,9 +338,13 @@ class="relative bg-gray-50">
   </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
 >>>>>>> 0238e98d (.)
 =======
   
 >>>>>>> da8a6bc2 (.)
+=======
+  
+>>>>>>> d3afd1fe (.)

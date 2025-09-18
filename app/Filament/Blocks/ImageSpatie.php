@@ -6,8 +6,11 @@ namespace Modules\UI\Filament\Blocks;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Hidden;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -28,6 +31,7 @@ class ImageSpatie
         return Block::make($name)
 
             ->schema([
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Filament\Forms\Get;
@@ -51,6 +55,8 @@ class ImageSpatie extends XotBaseBlock
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
                 Hidden::make('img_uuid')
                     ->default(fn () => Str::uuid()->toString())
                     ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
@@ -87,6 +93,7 @@ class ImageSpatie extends XotBaseBlock
                 TextInput::make('caption'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ])
             ->columns('form' === $context ? 2 : 1);
 =======
@@ -96,5 +103,9 @@ class ImageSpatie extends XotBaseBlock
             ])
             ->columns('form' === $context ? 2 : 1);
 >>>>>>> da8a6bc2 (.)
+=======
+            ])
+            ->columns('form' === $context ? 2 : 1);
+>>>>>>> d3afd1fe (.)
     }
 }

@@ -4,12 +4,15 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 return [
     'attributes' => [
         'external-link' => 'Externer Link',
@@ -23,24 +26,32 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0238e98d (.)
 =======
 
 >>>>>>> da8a6bc2 (.)
+=======
+
+>>>>>>> d3afd1fe (.)
     'select-options' => [
         'same-tab' => 'Gleicher Tab',
         'new-tab' => 'Neuer Tab',
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0238e98d (.)
 =======
 
 >>>>>>> da8a6bc2 (.)
+=======
+
+>>>>>>> d3afd1fe (.)
     'items' => [
         'empty' => 'Keine Einträge.',
         'add-item' => 'Einträge hinzufügen',
@@ -50,6 +61,7 @@ return [
         'indent' => 'Einziehen',
         'dedent' => 'Ausziehen',
         'remove' => 'Entfernen',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         'sorted' => 'Ordinato',
@@ -62,6 +74,10 @@ return [
     ],
 
 >>>>>>> da8a6bc2 (.)
+=======
+    ],
+
+>>>>>>> d3afd1fe (.)
     'items-modal' => [
         'title' => 'Eintrag',
         'label' => 'Name',

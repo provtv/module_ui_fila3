@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 xmlns="http://www.w3.org/2000/svg" class="size-5" id="flag-icons-us" viewBox="0 0 640 480">
 =======
 <svg xmlns="http://www.w3.org/2000/svg" class="size-5" id="flag-icons-us" viewBox="0 0 640 480">
@@ -7,6 +8,9 @@ xmlns="http://www.w3.org/2000/svg" class="size-5" id="flag-icons-us" viewBox="0 
 =======
 <svg xmlns="http://www.w3.org/2000/svg" class="size-5" id="flag-icons-us" viewBox="0 0 640 480">
 >>>>>>> da8a6bc2 (.)
+=======
+<svg xmlns="http://www.w3.org/2000/svg" class="size-5" id="flag-icons-us" viewBox="0 0 640 480">
+>>>>>>> d3afd1fe (.)
     <path fill="#bd3d44" d="M0 0h640v480H0"/>
     <path stroke="#fff" stroke-width="37" d="M0 55.3h640M0 129h640M0 203h640M0 277h640M0 351h640M0 425h640"/>
     <path fill="#192f5d" d="M0 0h364.8v258.5H0"/>

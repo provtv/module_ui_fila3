@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 =======
@@ -236,6 +237,10 @@ Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferi
 # Layouts e Temi UI
 
 >>>>>>> da8a6bc2 (.)
+=======
+# Layouts e Temi UI
+
+>>>>>>> d3afd1fe (.)
 ## Layout System
 
 ### Grid System
@@ -495,6 +500,7 @@ AdminLayout::make()
 4. **Manutenibilità**
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
+<<<<<<< HEAD
    - Centralizzare configurazioni 
 <<<<<<< HEAD
 =======
@@ -502,3 +508,6 @@ AdminLayout::make()
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+   - Centralizzare configurazioni 
+>>>>>>> d3afd1fe (.)

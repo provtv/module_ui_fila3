@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['label'])
 =======
 @props(['label'])
@@ -7,6 +8,9 @@ s(['label'])
 =======
 @props(['label'])
 >>>>>>> da8a6bc2 (.)
+=======
+@props(['label'])
+>>>>>>> d3afd1fe (.)
 
 <button
     type="submit"

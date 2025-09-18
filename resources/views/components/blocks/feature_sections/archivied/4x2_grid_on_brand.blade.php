@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="bg-indigo-700">
 =======
 <div class="bg-indigo-700">
@@ -7,6 +8,9 @@ class="bg-indigo-700">
 =======
 <div class="bg-indigo-700">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="bg-indigo-700">
+>>>>>>> d3afd1fe (.)
     <div class="mx-auto max-w-4xl px-6 py-24 sm:py-32 lg:max-w-7xl lg:px-8 lg:py-40">
       <h2 class="text-4xl font-bold tracking-tight text-white">Inbox support built for efficiency.</h2>
       <p class="mt-6 max-w-3xl text-lg leading-8 text-indigo-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit aliquam sit nisl euismod mattis in.</p>

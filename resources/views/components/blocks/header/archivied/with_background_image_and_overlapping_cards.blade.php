@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="bg-white">
 =======
 <div class="bg-white">
@@ -7,6 +8,9 @@ class="bg-white">
 =======
 <div class="bg-white">
 >>>>>>> da8a6bc2 (.)
+=======
+<div class="bg-white">
+>>>>>>> d3afd1fe (.)
     <!-- Header -->
     <div class="relative bg-gray-800 pb-32">
       <div class="absolute inset-0">

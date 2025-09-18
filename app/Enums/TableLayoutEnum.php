@@ -6,6 +6,7 @@ namespace Modules\UI\Enums;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasLabel;
@@ -29,6 +30,8 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 use Filament\Resources\Pages\ListRecords;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
@@ -41,9 +44,12 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
     case GRID = 'grid';
     case LIST = 'list';
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 
     public static function init(): self
     {
@@ -52,6 +58,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 
     public function getLabel(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.label');
@@ -63,28 +70,39 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         return $this->name;
         // return trans('ui::corner-position.'.$this->value.'.label');
 >>>>>>> da8a6bc2 (.)
+=======
+        return $this->name;
+        // return trans('ui::corner-position.'.$this->value.'.label');
+>>>>>>> d3afd1fe (.)
     }
 
     public function getColor(): string
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.color');
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
         return match ($this) {
             self::GRID => 'gray',
             self::LIST => 'gray',
         };
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     }
 
     public function getIcon(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.icon');
@@ -106,18 +124,24 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
         return match ($this) {
             self::LIST => 'heroicon-o-list-bullet',
             self::GRID => 'heroicon-o-squares-2x2',
         };
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     }
 
     public function toggle(): self
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return match ($this) {
@@ -127,14 +151,19 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
         // $res = self::LIST === $this ? self::GRID : self::LIST;
         $res = self::GRID === $this ? self::LIST : self::GRID;
 
         return $res;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     }
 
     public function isGridLayout(): bool
@@ -142,6 +171,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         return self::GRID === $this;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function isListLayout(): bool
@@ -203,6 +233,8 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 =======
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     /**
      * Undocumented function.
      *
@@ -247,8 +279,11 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 
         return $columns;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     }
 }

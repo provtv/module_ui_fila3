@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Componenti UI
 
 ## Componenti Form Avanzati
@@ -423,6 +424,8 @@ Il modulo Cms fornisce componenti per la gestione dell'interfaccia utente. [Docu
 Questa documentazione fornisce una panoramica dei componenti disponibili. Per i dettagli completi, consultare la documentazione specifica nei moduli. 
 >>>>>>> 0238e98d (.)
 =======
+=======
+>>>>>>> d3afd1fe (.)
 # Componenti UI
 
 ## Form Components
@@ -663,6 +666,7 @@ PrintLayout::make()
 - Stili CSS print
 - No elementi UI
 
+<<<<<<< HEAD
 ### DarkModeSwitcher
 ```php
 // Livewire Component
@@ -685,6 +689,8 @@ Il componente utilizza la vista `ui::livewire.dark-mode.switcher` che contiene:
 - Script per la gestione del cookie e l'applicazione della classe CSS `.dark`
 - SVG icons per modalità chiara e scura
 
+=======
+>>>>>>> d3afd1fe (.)
 ## Componenti Base
 
 ### Forms
@@ -841,5 +847,9 @@ php artisan vendor:publish --tag=ui-config
 
 // Pubblicare views
 php artisan vendor:publish --tag=ui-views
+<<<<<<< HEAD
 ``` 
 >>>>>>> da8a6bc2 (.)
+=======
+``` 
+>>>>>>> d3afd1fe (.)

@@ -13,13 +13,17 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
 class Title // extends XotBaseBlock
 {public static function make(
     string $name = 'title',
     string $context = 'form',
 ): Block {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 class Title extends XotBaseBlock
@@ -29,12 +33,15 @@ class Title extends XotBaseBlock
 >>>>>>> 0238e98d (.)
 =======
 >>>>>>> da8a6bc2 (.)
+=======
+>>>>>>> d3afd1fe (.)
     // $view = 'ui::components.blocks.title.v1';
     // $views = app(GetViewsSiblingsAndSelfAction::class)->execute($view);
 
     $options = app(GetViewBlocksOptionsByTypeAction::class)
         ->execute('title', false);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     return Block::make($name)
@@ -48,6 +55,11 @@ class Title extends XotBaseBlock
         ->schema(
             [
 >>>>>>> da8a6bc2 (.)
+=======
+    return Block::make($name)
+        ->schema(
+            [
+>>>>>>> d3afd1fe (.)
                 TextInput::make('text')
                     ->required(),
 
@@ -66,6 +78,7 @@ class Title extends XotBaseBlock
             ]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         )
         ->columns('form' === $context ? 2 : 1);
 =======
@@ -75,5 +88,9 @@ class Title extends XotBaseBlock
         )
         ->columns('form' === $context ? 2 : 1);
 >>>>>>> da8a6bc2 (.)
+=======
+        )
+        ->columns('form' === $context ? 2 : 1);
+>>>>>>> d3afd1fe (.)
 }
 }

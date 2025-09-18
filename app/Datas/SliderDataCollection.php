@@ -16,6 +16,7 @@ class SliderDataCollection extends Data
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
     public function __construct()
@@ -25,5 +26,9 @@ class SliderDataCollection extends Data
     public function __construct()
     {
 >>>>>>> da8a6bc2 (.)
+=======
+    public function __construct()
+    {
+>>>>>>> d3afd1fe (.)
     }
 }

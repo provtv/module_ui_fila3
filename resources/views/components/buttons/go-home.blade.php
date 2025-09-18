@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['href'])
 =======
 @props(['href'])
@@ -7,6 +8,9 @@ s(['href'])
 =======
 @props(['href'])
 >>>>>>> da8a6bc2 (.)
+=======
+@props(['href'])
+>>>>>>> d3afd1fe (.)
 <x-filament::button
     href="{{ $href }}"
     tag="a"

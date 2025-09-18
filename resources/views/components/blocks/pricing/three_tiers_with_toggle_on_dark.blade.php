@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Requires js --}}
 =======
 {{-- Requires js --}}
@@ -7,6 +8,9 @@ Requires js --}}
 =======
 {{-- Requires js --}}
 >>>>>>> da8a6bc2 (.)
+=======
+{{-- Requires js --}}
+>>>>>>> d3afd1fe (.)
 <div class="bg-gray-900 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-4xl text-center">

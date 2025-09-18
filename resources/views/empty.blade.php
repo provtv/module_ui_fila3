@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  empty blade --}}
 =======
 {{--  empty blade --}}
@@ -7,3 +8,6 @@
 =======
 {{--  empty blade --}}
 >>>>>>> da8a6bc2 (.)
+=======
+{{--  empty blade --}}
+>>>>>>> d3afd1fe (.)
