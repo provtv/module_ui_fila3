@@ -56,8 +56,11 @@
    - Configurare correttamente
    - Testare i permessi
    - Documentare le regole 
+<<<<<<< HEAD
 
 ## Collegamenti tra versioni di resources.md
 * [resources.md](docs/tecnico/filament/resources.md)
 * [resources.md](../../../UI/docs/filament/resources.md)
 
+=======
+>>>>>>> 0238e98d (.)

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 class="bg-white">
+=======
+<div class="bg-white">
+>>>>>>> 0238e98d (.)
     <!-- Header -->
     <div class="relative bg-gray-800 pb-32">
       <div class="absolute inset-0">

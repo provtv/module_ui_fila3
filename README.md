@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🎨 UI Module - Eleva la Tua Interfaccia al Livello Successivo! 🚀
+=======
+# 🎨 Elevate Your Interface with the Fila3 UI Module! 🚀
+>>>>>>> 0238e98d (.)
 
 ![GitHub issues](https://img.shields.io/github/issues/laraxot/module_ui_fila3)
 ![GitHub forks](https://img.shields.io/github/forks/laraxot/module_ui_fila3)
@@ -78,6 +82,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 👤 Author
 Marco Sottana
 Discover more of my work at marco76tv!
+<<<<<<< HEAD
 
 ### Versione HEAD
 
@@ -206,3 +211,5 @@ Este proyecto está distribuido bajo la licencia MIT. Ver el archivo [LICENSE](L
 
 ---
 
+=======
+>>>>>>> 0238e98d (.)

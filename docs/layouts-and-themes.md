@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 ### Versione HEAD
 
+=======
+>>>>>>> 0238e98d (.)
 # Struttura dei Temi
 
 ## Posizionamento Corretto dei Temi
@@ -53,7 +56,10 @@ Per correggere questa situazione, è necessario:
 4. Rigenerare l'autoloader
 
 ```bash
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0238e98d (.)
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
 
@@ -72,7 +78,10 @@ composer dump-autoload -o
 Quando si aggiunge un tema con git subtree, utilizzare il seguente formato:
 
 ```bash
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0238e98d (.)
 # Corretto
 git subtree add -P Themes/NomeTema git@repository:owner/theme.git branch --squash
 
@@ -118,6 +127,19 @@ Il modulo Cms rileva automaticamente i temi nella directory `Themes/` e li regis
 
 Qualsiasi tentativo di implementare un service provider dedicato per i temi sarebbe ridondante e potrebbe causare conflitti con la gestione esistente implementata dal modulo Cms.
 
+<<<<<<< HEAD
+=======
+## Conclusione
+
+La corretta separazione tra moduli e temi è essenziale per mantenere una struttura del progetto pulita e funzionale. Assicurarsi che tutti i temi siano posizionati nella directory `Themes` e che tutti i moduli funzionali siano nella directory `Modules`.
+
+# Struttura dei Temi
+
+## Panoramica
+
+Il sistema di temi permette una gestione flessibile e modulare dell'interfaccia utente. Ogni tema è una directory separata che contiene tutti i file necessari per il suo funzionamento.
+
+>>>>>>> 0238e98d (.)
 ## Struttura Directory
 
 ```
@@ -180,6 +202,7 @@ Il contenuto viene caricato dinamicamente attraverso:
 - Documentare tutte le personalizzazioni
 - Testare su diversi dispositivi
 - Seguire le convenzioni di naming
+<<<<<<< HEAD
 - Mantenere il codice pulito e organizzato
 
 # Layouts e Temi UI
@@ -468,3 +491,6 @@ AdminLayout::make()
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
    - Centralizzare configurazioni 
+=======
+- Mantenere il codice pulito e organizzato 
+>>>>>>> 0238e98d (.)

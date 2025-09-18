@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s([
+=======
+@props([
+>>>>>>> 0238e98d (.)
     'type' => 'primary', 
     'size' => 'md', 
     'tag' => 'button',

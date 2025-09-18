@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 
 return array (
@@ -34,3 +35,21 @@ return array (
     ),
   ),
 );
+=======
+return [
+    'fields' => [
+        'text' => [
+            'label' => 'Testo',
+        ],
+        'level' => [
+            'label' => 'Grandezza',
+        ],
+        '_tpl' => [
+            'label' => '_tpl',
+        ],
+        'view' => [
+            'label' => 'view',
+        ],
+    ],
+];
+>>>>>>> 0238e98d (.)

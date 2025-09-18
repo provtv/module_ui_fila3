@@ -174,6 +174,7 @@ Per gestire correttamente le route nei blocchi, seguire queste linee guida:
    - Verificare che la route esista prima di utilizzarla
    - Fornire un fallback per route non valide
    - Loggare eventuali errori di route
+<<<<<<< HEAD
 
 ## Collegamenti tra versioni di blocks.md
 * [blocks.md](../../../Xot/docs/blocks.md)
@@ -183,3 +184,5 @@ Per gestire correttamente le route nei blocchi, seguire queste linee guida:
 * [blocks.md](../../../../Themes/One/docs/blocks.md)
 * [blocks.md](../../../../Themes/One/docs/components/blocks.md)
 
+=======
+>>>>>>> 0238e98d (.)

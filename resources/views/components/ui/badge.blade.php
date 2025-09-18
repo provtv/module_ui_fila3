@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s([
+=======
+@props([
+>>>>>>> 0238e98d (.)
     'background' => 'bg-blue-600',
     'color' => 'text-white'
 ])

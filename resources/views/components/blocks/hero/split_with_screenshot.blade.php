@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 class="relative isolate overflow-hidden bg-white">
+=======
+<div class="relative isolate overflow-hidden bg-white">
+>>>>>>> 0238e98d (.)
     <svg class="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
       <defs>
         <pattern id="0787a7c5-978c-4f66-83c7-11c213f99cb7" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">

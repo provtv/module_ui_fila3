@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@php
+>>>>>>> 0238e98d (.)
     $gridDirection = $getGridDirection() ?? 'column';
     $id = $getId();
     $isDisabled = $isDisabled();

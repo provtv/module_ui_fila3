@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s([
+=======
+@props([
+>>>>>>> 0238e98d (.)
     'label' => null,
     'id' => null,
     'name' => null,

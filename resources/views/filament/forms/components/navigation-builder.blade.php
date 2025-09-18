@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@php
+>>>>>>> 0238e98d (.)
     $disableNewRecordCreation = $disableNewRecordCreation ?? false;
     $disableNewChildRecordCreation = $disableNewChildRecordCreation ?? false;
     $disableRecordDeletion = $disableRecordDeletion ?? false;

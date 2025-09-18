@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 class="bg-white">
+=======
+<div class="bg-white">
+>>>>>>> 0238e98d (.)
     <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
       <div class="mx-auto max-w-3xl text-center">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">All-in-one platform</h2>

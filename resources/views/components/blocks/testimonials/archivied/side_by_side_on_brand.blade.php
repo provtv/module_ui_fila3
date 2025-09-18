@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ion class="bg-indigo-800">
+=======
+<section class="bg-indigo-800">
+>>>>>>> 0238e98d (.)
     <div class="mx-auto max-w-7xl md:grid md:grid-cols-2 md:px-6 lg:px-8">
       <div class="px-6 py-12 md:flex md:flex-col md:border-r md:border-indigo-900 md:py-16 md:pl-0 md:pr-10 lg:pr-16">
         <div class="md:flex-shrink-0">

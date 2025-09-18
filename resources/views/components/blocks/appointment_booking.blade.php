@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s(['title' => 'Prenota Appuntamento'])
+=======
+@props(['title' => 'Prenota Appuntamento'])
+>>>>>>> 0238e98d (.)
 
 <div class="bg-white p-6 rounded-lg shadow-md" id="booking-form">
     <h2 class="text-xl font-semibold mb-4">{{ $title }}</h2>

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s(['title' => 'Materiale Educativo'])
+=======
+@props(['title' => 'Materiale Educativo'])
+>>>>>>> 0238e98d (.)
 
 <div class="bg-white p-6 rounded-lg shadow-md">
     <h2 class="text-xl font-semibold mb-4">{{ $title }}</h2>

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s(['text', 'level'])
+=======
+@props(['text', 'level'])
+>>>>>>> 0238e98d (.)
 
 <div class="py-4">
     {{-- {{ dddx($article->category_id) }} --}}

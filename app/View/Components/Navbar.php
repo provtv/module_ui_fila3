@@ -15,7 +15,15 @@ use Modules\Xot\Actions\GetViewAction;
  */
 class Navbar extends Component
 {
+<<<<<<< HEAD
     public function __construct(): void {
+=======
+    public function __construct(
+        // public Post $article,
+        // public bool $showAuthor = false,
+        // public string $tpl = 'v1'
+    ) {
+>>>>>>> 0238e98d (.)
     }
 
     public function render(): Renderable

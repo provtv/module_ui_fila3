@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s(['label'])
+=======
+@props(['label'])
+>>>>>>> 0238e98d (.)
 
 <button
     type="submit"

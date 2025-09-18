@@ -51,20 +51,29 @@ Il componente logo è uno degli elementi più importanti dell'interfaccia utente
 {{-- Logo nell'header --}}
 <x-blocks.logo 
     src="/images/logo.svg"
+<<<<<<< HEAD
     alt="il progetto"
+=======
+    alt="SaluteOra"
+>>>>>>> 0238e98d (.)
     size="h-12 w-auto"
 />
 
 {{-- Logo nel footer --}}
 <x-blocks.logo 
     src="/images/logo.svg"
+<<<<<<< HEAD
     alt="il progetto"
+=======
+    alt="SaluteOra"
+>>>>>>> 0238e98d (.)
     size="h-8 w-auto"
 />
 
 {{-- Logo con titolo --}}
 <x-blocks.logo 
     src="/images/logo.svg"
+<<<<<<< HEAD
     alt="il progetto"
     title="il progetto"
     description="La tua salute al primo posto"
@@ -77,3 +86,10 @@ Il componente logo è uno degli elementi più importanti dell'interfaccia utente
 * [components.md](../../../Cms/docs/components.md)
 * [components.md](../../../../Themes/One/docs/components.md)
 
+=======
+    alt="SaluteOra"
+    title="SaluteOra"
+    description="La tua salute al primo posto"
+/>
+``` 
+>>>>>>> 0238e98d (.)

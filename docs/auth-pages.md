@@ -4,7 +4,11 @@
 
 ### Struttura
 ```php
+<<<<<<< HEAD
 // /var/www/html/base_<nome progetto>/laravel/Themes/One/resources/views/pages/auth/logout.blade.php
+=======
+// /var/www/html/base_saluteora/laravel/Themes/One/resources/views/pages/auth/logout.blade.php
+>>>>>>> 0238e98d (.)
 
 <?php
 

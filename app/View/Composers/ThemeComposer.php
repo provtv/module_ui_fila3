@@ -21,7 +21,12 @@ class ThemeComposer
      *
      * @return \Illuminate\Config\Repository|\Illuminate\Contracts\Foundation\Application|mixed
      */
+<<<<<<< HEAD
     public function metatag(): void {
+=======
+    public function metatag($index)
+    {
+>>>>>>> 0238e98d (.)
         // $ris = self::__getStatic($index);
         // echo '<br/>['.$index.']['.$ris.']';
         // if ('' === $ris || null === $ris) {

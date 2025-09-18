@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 class="relative bg-white">
+=======
+<div class="relative bg-white">
+>>>>>>> 0238e98d (.)
     <div class="absolute inset-0" aria-hidden="true">
       <div class="absolute inset-y-0 right-0 w-1/2 bg-indigo-700"></div>
     </div>

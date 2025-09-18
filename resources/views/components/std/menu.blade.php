@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s(['name'])
+=======
+@props(['name'])
+>>>>>>> 0238e98d (.)
 
 @if ($menu = \App\Models\Menu::whereName($name)->first())
     <ul class="ml-auto flex items-center space-x-4">

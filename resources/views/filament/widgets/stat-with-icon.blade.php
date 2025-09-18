@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 lament-widgets::widget>
+=======
+<x-filament-widgets::widget>
+>>>>>>> 0238e98d (.)
     <x-filament::section collapsible>
         <x-filament::grid lg='2'>
             <x-filament::grid.column >

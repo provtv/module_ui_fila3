@@ -1,7 +1,11 @@
 # Struttura delle Filament Resources
 
 ## Panoramica
+<<<<<<< HEAD
 Questo documento descrive la struttura e l'organizzazione delle Filament Resources nel progetto il progetto, con particolare attenzione all'integrazione con il modulo Xot.
+=======
+Questo documento descrive la struttura e l'organizzazione delle Filament Resources nel progetto SaluteOra, con particolare attenzione all'integrazione con il modulo Xot.
+>>>>>>> 0238e98d (.)
 
 ## Struttura Base
 Le Filament Resources seguono una struttura gerarchica standardizzata:
@@ -51,8 +55,13 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 ```
 
 ## Documentazione Correlata
+<<<<<<< HEAD
 - [Documentazione CMS Module](../laravel/Modules/Cms/project_docs/filament-resources.md)
 - [Documentazione Xot Module](../laravel/Modules/Xot/project_docs/filament-resources.md)
+=======
+- [Documentazione CMS Module](../laravel/Modules/Cms/docs/filament-resources.md)
+- [Documentazione Xot Module](../laravel/Modules/Xot/docs/filament-resources.md)
+>>>>>>> 0238e98d (.)
 
 ## Best Practices
 1. **Namespace**

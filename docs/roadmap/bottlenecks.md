@@ -212,6 +212,7 @@
 - Priorità a performance e accessibilità
 - Monitoraggio continuo bundle size
 - Automazione test visivi
+<<<<<<< HEAD
 - Documentazione aggiornata 
 ## Collegamenti tra versioni di bottlenecks.md
 * [bottlenecks.md](../../../Gdpr/docs/performance/bottlenecks.md)
@@ -225,3 +226,6 @@
 * [bottlenecks.md](../../../Media/docs/performance/bottlenecks.md)
 * [bottlenecks.md](../../../Patient/docs/roadmap/bottlenecks.md)
 
+=======
+- Documentazione aggiornata 
+>>>>>>> 0238e98d (.)

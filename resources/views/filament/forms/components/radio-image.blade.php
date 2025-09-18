@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 namic-component :component="$getFieldWrapperView()" :field="$field">
+=======
+<x-dynamic-component :component="$getFieldWrapperView()" :field="$field">
+>>>>>>> 0238e98d (.)
     @php
         $id = $getId();
         $isDisabled = $isDisabled();

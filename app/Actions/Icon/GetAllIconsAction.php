@@ -15,6 +15,7 @@ class GetAllIconsAction
     use QueueableAction;
 
     /**
+<<<<<<< HEAD
      * @return array
      */
     public function execute(): void {
@@ -35,6 +36,17 @@ class GetAllIconsAction
         if (!is_array($icons)) {
             return [];
         }
+=======
+     * Restituisce la struttura completa delle icone disponibili per la UI.
+     *
+     * @param string $context
+     * @return array<string, array<string, mixed>>
+     */
+    public function execute(string $context = 'form'): array
+    {
+        $iconsFactory = App::make(IconFactory::class);
+        $icons = $iconsFactory->all();
+>>>>>>> 0238e98d (.)
 
         $icons = Arr::map($icons, function (array $set, array|string $name) {
             $set['name'] = $name;
@@ -42,12 +54,19 @@ class GetAllIconsAction
 
             foreach ($set['paths'] as $path) {
                 foreach (File::allFiles($path) as $file) {
+<<<<<<< HEAD
                     // Simply ignore files that aren't SVGs
+=======
+                    // Ignora file che non sono SVG
+>>>>>>> 0238e98d (.)
                     if ('svg' !== $file->getExtension()) {
                         continue;
                     }
 
+<<<<<<< HEAD
                     // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
+=======
+>>>>>>> 0238e98d (.)
                     $iconName = str($file->getPathname())
                         ->after($path.DIRECTORY_SEPARATOR)
                         ->replace(DIRECTORY_SEPARATOR, '.')

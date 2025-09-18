@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 https://flowbite.com/docs/components/carousel/#indicators --}}
+=======
+{{-- https://flowbite.com/docs/components/carousel/#indicators --}}
+>>>>>>> 0238e98d (.)
 
 
 <div id="indicators-carousel" class="relative w-full" data-carousel="static">

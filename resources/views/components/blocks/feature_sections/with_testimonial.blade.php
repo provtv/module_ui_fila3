@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 class="overflow-hidden bg-white py-24 sm:py-32">
+=======
+<div class="overflow-hidden bg-white py-24 sm:py-32">
+>>>>>>> 0238e98d (.)
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
         <div class="lg:pr-4 lg:pt-4">

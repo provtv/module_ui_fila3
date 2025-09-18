@@ -10,10 +10,17 @@ Secondo le regole di organizzazione della documentazione:
 
 ## Collegamenti Principali
 
+<<<<<<< HEAD
 - [Documentazione Frontend](../../Cms/project_docs/frontoffice.md) - Documentazione completa sul frontend
 - [Componenti Blade](../../Cms/project_docs/components.md) - Documentazione sui componenti Blade nel frontend
 - [Blocchi di Contenuto](../../Cms/project_docs/blocks.md) - Documentazione sui blocchi di contenuto
 - [Filament Integration](../../Cms/project_docs/filament.md) - Integrazione con Filament
+=======
+- [Documentazione Frontend](../../Cms/docs/frontoffice.md) - Documentazione completa sul frontend
+- [Componenti Blade](../../Cms/docs/components.md) - Documentazione sui componenti Blade nel frontend
+- [Blocchi di Contenuto](../../Cms/docs/blocks.md) - Documentazione sui blocchi di contenuto
+- [Filament Integration](../../Cms/docs/filament.md) - Integrazione con Filament
+>>>>>>> 0238e98d (.)
 
 ## Utilizzo dei Componenti UI nel Frontend
 
@@ -25,6 +32,7 @@ I componenti UI definiti in questo modulo vengono utilizzati nel frontend attrav
 
 ## Collegamento Bidirezionale
 
+<<<<<<< HEAD
 Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/project_docs/ui-link.md) nel modulo Cms.
 
 > Aggiorna entrambi i riferimenti se modifichi la struttura dei componenti UI o aggiungi nuovi componenti utilizzati nel frontend.
@@ -35,3 +43,8 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 * [cms-link.md](../../../UI/project_docs/cms-link.md)
 * [cms-link.md](../../../Lang/project_docs/cms-link.md)
 
+=======
+Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/docs/ui-link.md) nel modulo Cms.
+
+> Aggiorna entrambi i riferimenti se modifichi la struttura dei componenti UI o aggiungi nuovi componenti utilizzati nel frontend.
+>>>>>>> 0238e98d (.)

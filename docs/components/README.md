@@ -196,6 +196,7 @@ class ButtonBrowserTest extends DuskTestCase
         });
     }
 }
+<<<<<<< HEAD
 ``` 
 ## Collegamenti tra versioni di README.md
 * [README.md](bashscripts/docs/README.md)
@@ -275,3 +276,6 @@ class ButtonBrowserTest extends DuskTestCase
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
 
+=======
+``` 
+>>>>>>> 0238e98d (.)

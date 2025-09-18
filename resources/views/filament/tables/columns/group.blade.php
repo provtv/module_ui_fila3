@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@php
+>>>>>>> 0238e98d (.)
     $fields=$getFields();
     $record=$getRecord();
 @endphp

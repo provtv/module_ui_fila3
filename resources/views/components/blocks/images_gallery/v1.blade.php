@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s(['data'])
+=======
+@props(['data'])
+>>>>>>> 0238e98d (.)
 
 <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto flex flex-wrap">

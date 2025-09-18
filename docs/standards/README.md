@@ -117,6 +117,7 @@ class XotBaseStatsOverview extends Widget
 - Core Web Vitals
 - Performance budget
 - Errori JavaScript
+<<<<<<< HEAD
 - Tempi di caricamento 
 ## Collegamenti tra versioni di README.md
 * [README.md](bashscripts/docs/README.md)
@@ -196,3 +197,6 @@ class XotBaseStatsOverview extends Widget
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
 
+=======
+- Tempi di caricamento 
+>>>>>>> 0238e98d (.)

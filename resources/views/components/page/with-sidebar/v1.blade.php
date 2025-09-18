@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@php
+>>>>>>> 0238e98d (.)
     $sidebar = $this->getSidebar();
     $sidebarWidths = $this->getSidebarWidths();
 @endphp

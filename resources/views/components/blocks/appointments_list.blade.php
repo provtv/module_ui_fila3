@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s(['title' => 'Appuntamenti'])
+=======
+@props(['title' => 'Appuntamenti'])
+>>>>>>> 0238e98d (.)
 
 <div class="bg-white p-6 rounded-lg shadow-md">
     <h2 class="text-xl font-semibold mb-4">{{ $title }}</h2>
@@ -55,7 +59,11 @@ s(['title' => 'Appuntamenti'])
                     <div class="mt-2 space-y-1">
                         <p class="text-sm text-gray-600">
                             <span class="font-medium">Data:</span> 
+<<<<<<< HEAD
                             {{ $appointment->starts_at->format('d/m/Y') }}
+=======
+                            {{ $appointment->date->format('d/m/Y') }}
+>>>>>>> 0238e98d (.)
                         </p>
                         <p class="text-sm text-gray-600">
                             <span class="font-medium">Orario:</span> 
@@ -119,4 +127,8 @@ function confirmCancel(appointmentId) {
     }
 }
 </script>
+<<<<<<< HEAD
 @endpush 
+=======
+@endpush 
+>>>>>>> 0238e98d (.)

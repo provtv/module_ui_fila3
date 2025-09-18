@@ -22,6 +22,13 @@ class AddressField extends Forms\Components\Field
         parent::setUp();
 
         $this->afterStateHydrated(function (AddressField $component, ?Model $record) {
+<<<<<<< HEAD
+=======
+            if ($record === null) {
+                return;
+            }
+
+>>>>>>> 0238e98d (.)
             $data = [
                 'country' => null,
                 'street' => null,
@@ -29,6 +36,7 @@ class AddressField extends Forms\Components\Field
                 'state' => null,
                 'zip' => null,
             ];
+<<<<<<< HEAD
             
             //if ($record && method_exists($record, 'getRelationValue')) {
                 $relationship = $this->getRelationship();
@@ -39,6 +47,20 @@ class AddressField extends Forms\Components\Field
                     }
                 }
             //}
+=======
+
+            $relationship = $this->getRelationship();
+            if (!$relationship) {
+                return;
+            }
+
+            $address = $record->getRelationValue($relationship);
+            if ($address !== null && is_object($address) && method_exists($address, 'toArray')) {
+                $data = $address->toArray();
+            }
+
+            $component->state($data);
+>>>>>>> 0238e98d (.)
         });
 
         $this->dehydrated(false);
@@ -55,6 +77,7 @@ class AddressField extends Forms\Components\Field
     {
         $state = $this->getState();
         $record = $this->getRecord();
+<<<<<<< HEAD
         $relationship = $record->{$this->getRelationship()}();
 
         if (null === $relationship) {
@@ -67,6 +90,30 @@ class AddressField extends Forms\Components\Field
         }
 
         $record?->touch();
+=======
+
+        if ($record === null) {
+            return;
+        }
+
+        $relationship = $this->getRelationship();
+        if (!$relationship) {
+            return;
+        }
+
+        $relation = $record->{$relationship}();
+        if (!$relation) {
+            return;
+        }
+
+        if ($address = $relation->first()) {
+            $address->update($state);
+        } else {
+            $relation->updateOrCreate($state);
+        }
+
+        $record->touch();
+>>>>>>> 0238e98d (.)
     }
 
     public function getChildComponents(): array
@@ -80,17 +127,25 @@ class AddressField extends Forms\Components\Field
                     // ->getOptionLabelUsing(fn ($value): ?string => Country::firstWhere('id', $value)->getAttribute('name')),
                 ]),
             Forms\Components\TextInput::make('street')
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0238e98d (.)
                 ->maxLength(255),
             Forms\Components\Grid::make(3)
                 ->schema([
                     Forms\Components\TextInput::make('city')
                         ->maxLength(255),
                     Forms\Components\TextInput::make('state')
+<<<<<<< HEAD
 
                         ->maxLength(255),
                     Forms\Components\TextInput::make('zip')
 
+=======
+                        ->maxLength(255),
+                    Forms\Components\TextInput::make('zip')
+>>>>>>> 0238e98d (.)
                         ->maxLength(255),
                 ]),
         ];

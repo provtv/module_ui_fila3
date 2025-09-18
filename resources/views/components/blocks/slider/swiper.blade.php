@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ion class="container p-6 mx-auto">
+=======
+<section class="container p-6 mx-auto">
+>>>>>>> 0238e98d (.)
 	<div id="heroslider" x-data="heroslider" class="relative w-full">
 		<button type="button" @click="swiper.slidePrev()" class="absolute z-10 grid rounded-full place-items-center start-6 top-[40%] size-10 bg-white/50 hover:bg-white/60">
 			<x-heroicon-o-chevron-left class="size-6"/>

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 lass="ml-auto flex items-center space-x-4">
+=======
+<ul class="ml-auto flex items-center space-x-4">
+>>>>>>> 0238e98d (.)
         @foreach ($menu->items as $item)
             <li>
                 <a

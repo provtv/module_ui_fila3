@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@php
+>>>>>>> 0238e98d (.)
     $columns = $this->getColumns();
 @endphp
 

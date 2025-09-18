@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Requires Js --}}
+=======
+{{-- Requires Js --}}
+>>>>>>> 0238e98d (.)
 <div class="isolate overflow-hidden">
     <div class="flow-root bg-gray-900 pb-16 pt-24 sm:pt-32 lg:pb-0">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">

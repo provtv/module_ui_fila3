@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@php
+>>>>>>> 0238e98d (.)
     $data=Arr::get($block,'data.gallery.0',null);
     if($data==null){
       return ;

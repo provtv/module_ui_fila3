@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 class="relative isolate overflow-hidden bg-gray-900">
+=======
+<div class="relative isolate overflow-hidden bg-gray-900">
+>>>>>>> 0238e98d (.)
     <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
       <div class="mx-auto max-w-2xl text-center">
         <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Boost your productivity.<br>Start using our app today.</h2>

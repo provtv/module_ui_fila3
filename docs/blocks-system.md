@@ -1,7 +1,11 @@
 # Sistema di Blocchi
 
 ## Introduzione
+<<<<<<< HEAD
 Il sistema di blocchi di il progetto è un'architettura modulare che permette di costruire pagine e componenti attraverso blocchi riutilizzabili. Ogni blocco è un componente Filament che genera una struttura JSON standardizzata e viene renderizzato attraverso un componente Blade dedicato.
+=======
+Il sistema di blocchi di SaluteOra è un'architettura modulare che permette di costruire pagine e componenti attraverso blocchi riutilizzabili. Ogni blocco è un componente Filament che genera una struttura JSON standardizzata e viene renderizzato attraverso un componente Blade dedicato.
+>>>>>>> 0238e98d (.)
 
 ## Architettura
 
@@ -21,7 +25,11 @@ laravel/Modules/Cms/
 
 ### Tipi di Blocchi
 
+<<<<<<< HEAD
 1. **[NavigationBlock](../laravel/Modules/Cms/project_docs/blocks/navigation-block.md)**
+=======
+1. **[NavigationBlock](../laravel/Modules/Cms/docs/blocks/navigation-block.md)**
+>>>>>>> 0238e98d (.)
    - Gestione menu di navigazione
    - Header e footer
    - Menu multilivello
@@ -96,9 +104,17 @@ public function render()
 - Backup automatici
 
 ## Links
+<<<<<<< HEAD
 - [Documentazione Blocchi](../laravel/Modules/Cms/project_docs/blocks/)
+=======
+- [Documentazione Blocchi](../laravel/Modules/Cms/docs/blocks/)
+>>>>>>> 0238e98d (.)
 - [Gestione Contenuti](content-management.md)
 - [Best Practices UI](ui-best-practices.md)
 
 ## Note
+<<<<<<< HEAD
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli. 
+=======
+Questa documentazione è parte del sistema di documentazione di SaluteOra. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli. 
+>>>>>>> 0238e98d (.)

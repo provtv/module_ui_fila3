@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<div>
+>>>>>>> 0238e98d (.)
     <button
         type="button"
         class="flex items-center justify-center w-10 h-10 p-2 rounded-md focus:outline-none"

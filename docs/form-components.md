@@ -1,11 +1,15 @@
 # Componenti Form
 
 ## Introduzione
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0238e98d (.)
 I componenti form forniscono elementi di input e validazione per la creazione di form complessi e interattivi.
 
 ## Componenti Disponibili
 
+<<<<<<< HEAD
 ### InlineDatePicker
 
 Un componente avanzato per la selezione di date che mostra un calendario inline con la possibilità di abilitare/disabilitare date specifiche.
@@ -143,6 +147,8 @@ public function form(Form $form): Form
 }
 ```
 
+=======
+>>>>>>> 0238e98d (.)
 ### Input
 ```blade
 <x-ui::input 
@@ -286,8 +292,12 @@ form.addEventListener('submit', (e) => {
 - [Componenti Table](./table-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md) 
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/project_docs/form-components.md)
 * [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
 
+=======
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+>>>>>>> 0238e98d (.)

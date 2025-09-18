@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 lament::widget>
+=======
+<x-filament::widget>
+>>>>>>> 0238e98d (.)
     <x-filament::section collapsible collapsed wire:key="section-{{ $guid }}">
         <x-slot name="heading">
             {{ $title }}

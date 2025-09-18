@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s(['title', 'description', 'button_text', 'button_link'])
+=======
+@props(['title', 'description', 'button_text', 'button_link'])
+>>>>>>> 0238e98d (.)
 
 <section class="bg-white">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">

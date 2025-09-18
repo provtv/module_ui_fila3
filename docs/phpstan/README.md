@@ -11,6 +11,7 @@ Data: Wed Apr 23 10:45:11 CEST 2025
 | 3 | ✅ Successo | Nessun errore |
 | 4 | ✅ Successo | Nessun errore |
 | 5 | ❌ Errore | Errore di esecuzione |
+<<<<<<< HEAD
 
 ## Correzioni PHPStan Applicate
 
@@ -123,3 +124,8 @@ public function isOptionSelected($option): bool
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
 
+=======
+## Collegamenti
+
+- [Report Generale](/docs/phpstan/README.md)
+>>>>>>> 0238e98d (.)

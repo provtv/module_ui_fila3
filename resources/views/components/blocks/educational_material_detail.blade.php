@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s(['material'])
+=======
+@props(['material'])
+>>>>>>> 0238e98d (.)
 
 <div class="bg-white p-6 rounded-lg shadow-md">
     <!-- Header -->

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<!--
+>>>>>>> 0238e98d (.)
   This example requires some changes to your config:
 
   ```

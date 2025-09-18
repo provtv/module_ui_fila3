@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s([
+=======
+@props([
+>>>>>>> 0238e98d (.)
     'title' => 'Page Header Title', 
     'description' => 'Description goes here'
 ])

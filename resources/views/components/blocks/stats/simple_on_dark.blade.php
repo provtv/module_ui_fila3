@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 class="bg-gray-900 py-24 sm:py-32">
+=======
+<div class="bg-gray-900 py-24 sm:py-32">
+>>>>>>> 0238e98d (.)
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
         <div class="mx-auto flex max-w-xs flex-col gap-y-4">

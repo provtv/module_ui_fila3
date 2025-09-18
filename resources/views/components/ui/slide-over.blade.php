@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s([
+=======
+@props([
+>>>>>>> 0238e98d (.)
     'name',
     'title' => 'Slide-over Title',
     'open' => false,

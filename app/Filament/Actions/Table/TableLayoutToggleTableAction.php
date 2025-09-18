@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Actions\Table;
 
+<<<<<<< HEAD
 use Filament\Resources\Pages\ListRecords;
 use Filament\Tables\Actions\Action;
 use Illuminate\Support\Facades\Session;
@@ -14,10 +15,27 @@ class TableLayoutToggleTableAction extends Action
 {
     use TableLayoutTrait;
 
+=======
+use Filament\Tables\Actions\Action;
+use Illuminate\Support\Facades\Session;
+use Modules\UI\Enums\TableLayoutEnum;
+use Livewire\Component;
+
+interface HasTableLayout
+{
+    public function getLayoutView(): TableLayoutEnum;
+    public function setLayoutView(TableLayoutEnum $layout): void;
+    public function resetTable(): void;
+}
+
+class TableLayoutToggleTableAction extends Action
+{
+>>>>>>> 0238e98d (.)
     protected function setUp(): void
     {
         parent::setUp();
 
+<<<<<<< HEAD
         $current = $this->getCurrentLayout();
 
         $this
@@ -51,5 +69,28 @@ class TableLayoutToggleTableAction extends Action
     public static function getDefaultName(): string
     {
         return 'table_layout_toggle';
+=======
+        $this
+            ->name('layout')
+            ->label('Cambia Layout')
+            ->icon('heroicon-o-view-columns')
+            ->action(fn (Component&HasTableLayout $livewire) => $this->toggleLayout($livewire));
+    }
+
+    protected function toggleLayout(Component&HasTableLayout $livewire): void
+    {
+        $currentLayout = $livewire->getLayoutView();
+        $newLayout = $currentLayout === TableLayoutEnum::GRID ? TableLayoutEnum::LIST : TableLayoutEnum::GRID;
+
+        $livewire->setLayoutView($newLayout);
+        $livewire->dispatch('$refresh');
+        $livewire->dispatch('refreshTable');
+        $livewire->resetTable();
+    }
+
+    public static function make(?string $name = null): static
+    {
+        return parent::make($name ?? 'layout');
+>>>>>>> 0238e98d (.)
     }
 }

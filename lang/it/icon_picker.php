@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 
 return array (
@@ -24,3 +25,15 @@ return array (
     ),
   ),
 );
+=======
+return [
+    'fields' => [
+        'newstate' => [
+            'label' => 'newstate',
+        ],
+        'pack' => [
+            'label' => 'pack',
+        ],
+    ],
+];
+>>>>>>> 0238e98d (.)

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 s(['title', 'stats'])
+=======
+@props(['title', 'stats'])
+>>>>>>> 0238e98d (.)
 
 <section class="bg-indigo-700">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8 lg:py-20">

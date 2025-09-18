@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Blocks;
 
+<<<<<<< HEAD
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Select;
@@ -18,6 +19,21 @@ class Image
         return Block::make($name)
             ->schema(
                 [
+=======
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\Builder\Block;
+use Modules\Xot\Filament\Blocks\XotBaseBlock;
+
+class Image extends XotBaseBlock
+{
+
+
+    public static function getBlockSchema(): array
+    {
+        return  [
+>>>>>>> 0238e98d (.)
                     FileUpload::make('image'),
 
                     TextInput::make('url'),
@@ -31,9 +47,14 @@ class Image
 
                     TextInput::make('caption')
                         ->columnSpanFull(),
+<<<<<<< HEAD
                 ]
             )
             ->columns('form' === $context ? 2 : 1);
+=======
+        ];
+
+>>>>>>> 0238e98d (.)
     }
 
     public static function getRatios(): array
@@ -53,6 +74,7 @@ class Image
             default => '',
         };
     }
+<<<<<<< HEAD
 
     public static function getFormSchema(): array
     {
@@ -67,4 +89,6 @@ class Image
                 ->maxLength(255),
         ];
     }
+=======
+>>>>>>> 0238e98d (.)
 }
