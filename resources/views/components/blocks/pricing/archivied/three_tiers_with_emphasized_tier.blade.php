@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="bg-gray-900">
 =======
 <div class="bg-gray-900">
 >>>>>>> 0238e98d (.)
+=======
+<div class="bg-gray-900">
+>>>>>>> da8a6bc2 (.)
     <div class="px-6 pt-12 lg:px-8 lg:pt-20">
       <div class="text-center">
         <h2 class="text-xl font-semibold leading-6 text-gray-300">Pricing</h2>

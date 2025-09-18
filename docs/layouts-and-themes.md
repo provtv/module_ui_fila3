@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 =======
@@ -231,6 +232,10 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../docs/risoluzione_conflitti_git.md).
 
+=======
+# Layouts e Temi UI
+
+>>>>>>> da8a6bc2 (.)
 ## Layout System
 
 ### Grid System
@@ -491,6 +496,9 @@ AdminLayout::make()
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
    - Centralizzare configurazioni 
+<<<<<<< HEAD
 =======
 - Mantenere il codice pulito e organizzato 
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)

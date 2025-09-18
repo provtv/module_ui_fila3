@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Providers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\realpath;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Foundation\AliasLoader;
@@ -35,6 +36,8 @@ class UIServiceProvider extends XotBaseServiceProvider
      * @var string
      */
 =======
+=======
+>>>>>>> da8a6bc2 (.)
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\Facades\Blade;
 use Modules\UI\Services\UIService;
@@ -49,12 +52,16 @@ class UIServiceProvider extends XotBaseServiceProvider
 {
     public string $name = 'UI';
 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Boot del service provider.
      *
@@ -64,10 +71,14 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
      * Undocumented function.
 >>>>>>> 0238e98d (.)
+=======
+     * Undocumented function.
+>>>>>>> da8a6bc2 (.)
      */
     public function boot(): void
     {
         parent::boot();
+<<<<<<< HEAD
 <<<<<<< HEAD
         
         // La registrazione dei Blade components modulari avviene tramite GetModulePathByGeneratorAction
@@ -96,6 +107,8 @@ class UIServiceProvider extends XotBaseServiceProvider
     {
         return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');
 =======
+=======
+>>>>>>> da8a6bc2 (.)
 
         $relativePath = config('modules.paths.generator.component-view.path');
         $components_path = module_path($this->name, $relativePath);
@@ -110,6 +123,9 @@ class UIServiceProvider extends XotBaseServiceProvider
         // $loader = AliasLoader::getInstance();
         // $loader->alias('ui', UIService::class);
         // $this->registerBladeIcons(); //moved to XotBaseServiceProvider
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
     }
 }

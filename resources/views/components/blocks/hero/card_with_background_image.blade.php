@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="bg-white">
 =======
 <div class="bg-white">
 >>>>>>> 0238e98d (.)
+=======
+<div class="bg-white">
+>>>>>>> da8a6bc2 (.)
     {{--
     <header>
       <div class="relative bg-white">

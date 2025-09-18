@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 s([
 =======
 @props([
 >>>>>>> 0238e98d (.)
+=======
+@props([
+>>>>>>> da8a6bc2 (.)
     'item',
     'statePath',
     'disableNewChildRecordCreation',

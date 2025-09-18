@@ -54,12 +54,15 @@ class GetAllBlocksAction
         );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $blocks = Arr::where($blocks, function ($block) {
             return !in_array($block['name'], ['xot_base', 'xot_base_block']);
         });
 
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
         return ComponentFileData::collection($blocks);
     }
 }

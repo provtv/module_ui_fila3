@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Enums;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasLabel;
@@ -26,6 +27,8 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
     case LIST = 'list';
     case GRID = 'grid';
 =======
+=======
+>>>>>>> da8a6bc2 (.)
 use Filament\Resources\Pages\ListRecords;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
@@ -37,7 +40,10 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     case GRID = 'grid';
     case LIST = 'list';
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
 
     public static function init(): self
     {
@@ -47,27 +53,39 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
     public function getLabel(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.label');
 =======
         return $this->name;
         // return trans('ui::corner-position.'.$this->value.'.label');
 >>>>>>> 0238e98d (.)
+=======
+        return $this->name;
+        // return trans('ui::corner-position.'.$this->value.'.label');
+>>>>>>> da8a6bc2 (.)
     }
 
     public function getColor(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.color');
 =======
+=======
+>>>>>>> da8a6bc2 (.)
         return match ($this) {
             self::GRID => 'gray',
             self::LIST => 'gray',
         };
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
     }
 
     public function getIcon(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.icon');
     }
@@ -86,26 +104,37 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
     {
         return $this->transClass(self::class, $this->value.'.helper_text');
 =======
+=======
+>>>>>>> da8a6bc2 (.)
         return match ($this) {
             self::LIST => 'heroicon-o-list-bullet',
             self::GRID => 'heroicon-o-squares-2x2',
         };
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
     }
 
     public function toggle(): self
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return match ($this) {
             self::LIST => self::GRID,
             self::GRID => self::LIST,
         };
 =======
+=======
+>>>>>>> da8a6bc2 (.)
         // $res = self::LIST === $this ? self::GRID : self::LIST;
         $res = self::GRID === $this ? self::LIST : self::GRID;
 
         return $res;
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
     }
 
     public function isGridLayout(): bool
@@ -113,6 +142,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         return self::GRID === $this;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function isListLayout(): bool
     {
@@ -171,6 +201,8 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
             self::GRID => 'table-layout-grid',
         };
 =======
+=======
+>>>>>>> da8a6bc2 (.)
     /**
      * Undocumented function.
      *
@@ -214,6 +246,9 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         Assert::isArray($columns);
 
         return $columns;
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
     }
 }

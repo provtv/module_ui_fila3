@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="bg-white py-24 sm:py-32">
 =======
 <div class="bg-white py-24 sm:py-32">
 >>>>>>> 0238e98d (.)
+=======
+<div class="bg-white py-24 sm:py-32">
+>>>>>>> da8a6bc2 (.)
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-xl text-center">
         <h2 class="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Testimonials</h2>

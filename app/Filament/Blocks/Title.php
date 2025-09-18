@@ -12,17 +12,23 @@ use Modules\Xot\Actions\View\GetViewsSiblingsAndSelfAction;
 use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> da8a6bc2 (.)
 class Title // extends XotBaseBlock
 {public static function make(
     string $name = 'title',
     string $context = 'form',
 ): Block {
+<<<<<<< HEAD
 =======
 class Title extends XotBaseBlock
 {
     public static function getBlockSchema(): array
     {
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
     // $view = 'ui::components.blocks.title.v1';
     // $views = app(GetViewsSiblingsAndSelfAction::class)->execute($view);
 
@@ -30,12 +36,18 @@ class Title extends XotBaseBlock
         ->execute('title', false);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     return Block::make($name)
         ->schema(
             [
 =======
     return [
 >>>>>>> 0238e98d (.)
+=======
+    return Block::make($name)
+        ->schema(
+            [
+>>>>>>> da8a6bc2 (.)
                 TextInput::make('text')
                     ->required(),
 
@@ -53,10 +65,15 @@ class Title extends XotBaseBlock
                     ->options($options),
             ]
 <<<<<<< HEAD
+<<<<<<< HEAD
         )
         ->columns('form' === $context ? 2 : 1);
 =======
         ;
 >>>>>>> 0238e98d (.)
+=======
+        )
+        ->columns('form' === $context ? 2 : 1);
+>>>>>>> da8a6bc2 (.)
 }
 }

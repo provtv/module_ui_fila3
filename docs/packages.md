@@ -53,6 +53,7 @@
 - [Performance](packages/performance.md)
 - [Accessibilità](packages/accessibility.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 
@@ -75,3 +76,5 @@
 
 =======
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)

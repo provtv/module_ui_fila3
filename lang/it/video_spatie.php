@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 return array (
@@ -31,6 +32,8 @@ return array (
   ),
 );
 =======
+=======
+>>>>>>> da8a6bc2 (.)
 return [
     'fields' => [
         'img_uuid' => [
@@ -44,4 +47,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)

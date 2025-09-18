@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="bg-gray-900">
 =======
 <div class="bg-gray-900">
 >>>>>>> 0238e98d (.)
+=======
+<div class="bg-gray-900">
+>>>>>>> da8a6bc2 (.)
     <div class="pt-12 sm:pt-16 lg:pt-24">
       <div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
         <div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">

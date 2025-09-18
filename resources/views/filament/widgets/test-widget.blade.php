@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 {{--
 >>>>>>> 0238e98d (.)
+=======
+{{--
+>>>>>>> da8a6bc2 (.)
 <div>
     @foreach ($widgets as $widget)
         @livewire($widget['class'], $widget['properties'])

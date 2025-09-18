@@ -22,9 +22,13 @@ class TableLayoutToggleHeaderAction extends Action
         $this->translateLabel()
             ->color('secondary')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0238e98d (.)
+=======
+            
+>>>>>>> da8a6bc2 (.)
             // ->label(trans('ui::'.static::getDefaultName().'.label'))
             // ->tooltip(trans('setting::database_connection.actions.database-backup.tooltip'))
             // ->icon(trans('setting::database_connection.actions.database-backup.icon'))
@@ -40,6 +44,7 @@ class TableLayoutToggleHeaderAction extends Action
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): string
     {
         return 'table_layout_toggle';
@@ -48,5 +53,10 @@ class TableLayoutToggleHeaderAction extends Action
     {
         return 'table-layout-toggle-header';
 >>>>>>> 0238e98d (.)
+=======
+    public static function getDefaultName(): ?string
+    {
+        return 'table-layout-toggle-header';
+>>>>>>> da8a6bc2 (.)
     }
 }

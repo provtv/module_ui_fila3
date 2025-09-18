@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="absolute inset-0 h-full">
 =======
 <div class="absolute inset-0 h-full">
 >>>>>>> 0238e98d (.)
+=======
+<div class="absolute inset-0 h-full">
+>>>>>>> da8a6bc2 (.)
     <div class="relative h-full overflow-hidden border border-gray-400 dark:border-gray-700 border-dashed opacity-75 sm:rounded-xl">
         <svg class="absolute inset-0 w-full h-full stroke-gray-900/10 dark:stroke-gray-200/10" fill="none">
         <defs>

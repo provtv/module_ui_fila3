@@ -59,6 +59,7 @@ Modules/UI/
 - Security testing
 - Performance testing
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 
@@ -85,3 +86,5 @@ Modules/UI/
 
 =======
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)

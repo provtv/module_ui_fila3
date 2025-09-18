@@ -31,6 +31,7 @@ interface HasTableLayout
 ## Utilizzo
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\UI\app\Filament\Actions\Table\TableLayoutToggleTableAction;
 =======
 <<<<<<< HEAD
@@ -39,6 +40,9 @@ use Modules\UI\ment\Actions\Table\TableLayoutToggleTableAction;
 use Modules\UI\app\Filament\Actions\Table\TableLayoutToggleTableAction;
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+use Modules\UI\ment\Actions\Table\TableLayoutToggleTableAction;
+>>>>>>> da8a6bc2 (.)
 
 class MyListRecords extends ListRecords
 {
@@ -58,6 +62,7 @@ class MyListRecords extends ListRecords
 4. Mantenere la persistenza dello stato
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,4 +81,6 @@ class MyListRecords extends ListRecords
 =======
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+>>>>>>> da8a6bc2 (.)
 [Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 

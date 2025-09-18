@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 lament-widgets::widget>
 =======
 <x-filament-widgets::widget>
 >>>>>>> 0238e98d (.)
+=======
+<x-filament-widgets::widget>
+>>>>>>> da8a6bc2 (.)
     <x-filament::section collapsible icon="{{ $icon }}">
         <x-slot name="description">
             {{ $title }}

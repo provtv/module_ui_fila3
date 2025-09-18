@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 er class="w-full">
     <div class="relative z-20 flex items-center justify-between w-full h-12 px-6 mx-auto">
         <div x-data="{ mobileMenuOpen: false }" class="relative flex items-center md:space-x-2 text-neutral-800">
@@ -44,6 +45,8 @@ er class="w-full">
             >
                 <nav class="flex flex-col w-full p-6 space-y-2 bg-white md:p-0 md:flex-row md:space-x-2 md:space-y-0 md:w-auto md:bg-transparent">
 =======
+=======
+>>>>>>> da8a6bc2 (.)
 <header class="w-full">
     <div class="relative z-20 flex items-center justify-between w-full h-12  px-6 mx-auto">
         <div x-data="{ mobileMenuOpen: false }" class="relative flex items-center md:space-x-2 text-neutral-800">
@@ -78,29 +81,39 @@ er class="w-full">
                 
                 <nav
                     class="flex flex-col w-full p-6 space-y-2 bg-white md:p-0 md:flex-row md:space-x-2 md:space-y-0 md:w-auto md:bg-transparent md:flex">
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                     <x-ui.nav-link href="/">Home</x-ui.nav-link>
                     @foreach ($_theme->getMenu('headernav_right') as $item)
                         <x-ui.nav-link href="{{ $_theme->getMenuUrl($item) }}">{{ $item['title'] }}</x-ui.nav-link>
                     @endforeach
                 </nav>
 <<<<<<< HEAD
+<<<<<<< HEAD
             </div>
         </div>
 
         {{-- Right Menu --}}
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 
             </div>
 
         </div>
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
         <div class="relative z-50 flex items-stretch space-x-3 text-neutral-800">
             <livewire:lang.change></livewire:lang.change>
             <div x-data class="flex-shrink-0 hidden w-[38px] overflow-hidden rounded-full h-[38px] sm:block" x-cloak>
                 <x-ui.light-dark-switch></x-ui.light-dark-switch>
             </div>
             @auth
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <x-filament::dropdown>
                     <x-slot name="trigger">
@@ -141,6 +154,8 @@ er class="w-full">
                     </x-filament::dropdown.list>
                 </x-filament::dropdown>
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 {{--  
                 <div class="flex items-center w-auto">
                     <x-ui.button type="primary" submit="true" tag="a" href="{{ route('profile.edit') }}">
@@ -151,7 +166,10 @@ er class="w-full">
                 <div class="flex items-center w-auto">
                     <x-profile.dropdown></x-profile.dropdown>
                 </div>
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
             @else
                 <div class="flex items-center w-auto">
                     <x-ui.button type="secondary" submit="true" tag="a" href="{{ route('login') }}">
@@ -165,9 +183,13 @@ er class="w-full">
                 </div>
             @endauth
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0238e98d (.)
+=======
+
+>>>>>>> da8a6bc2 (.)
         </div>
     </div>
 </header>

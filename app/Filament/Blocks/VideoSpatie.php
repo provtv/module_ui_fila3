@@ -17,6 +17,9 @@ use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 use Spatie\MediaLibrary\HasMedia;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> da8a6bc2 (.)
 
 class VideoSpatie
 {
@@ -27,6 +30,7 @@ class VideoSpatie
         return Block::make($name)
 
             ->schema([
+<<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
@@ -37,6 +41,8 @@ class VideoSpatie extends XotBaseBlock
 
         return [
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                 Hidden::make('img_uuid')
                     ->default(fn () => Str::uuid()->toString())
                     ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
@@ -90,11 +96,16 @@ class VideoSpatie extends XotBaseBlock
 
                 // Forms\Components\SpatieMediaLibraryFileUpload::make('media_id')
 <<<<<<< HEAD
+<<<<<<< HEAD
             ])
             ->columns('form' === $context ? 2 : 1);
 =======
             ];
 >>>>>>> 0238e98d (.)
+=======
+            ])
+            ->columns('form' === $context ? 2 : 1);
+>>>>>>> da8a6bc2 (.)
     }
 
     public static function getRatios(): array

@@ -16,6 +16,7 @@ class GetAllIconsAction
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array
      */
     public function execute(): void {
@@ -48,6 +49,25 @@ class GetAllIconsAction
         $icons = $iconsFactory->all();
 >>>>>>> 0238e98d (.)
 
+=======
+     * @return array
+     */
+    public function execute(string $context = 'form')
+    {
+        $iconsFactory = App::make(IconFactory::class);
+        $icons = $iconsFactory->all();
+        /*
+         *  "heroicons" => array:5 [▼
+         *   "prefix" => "heroicon"
+         *   "fallback" => ""
+         *   "class" => ""
+         *   "attributes" => []
+         *   "paths" => array:1 [▼
+         *      0 => "F:\var\www\_bases\base_broker_fila3\laravel\vendor\blade-ui-kit\blade-heroicons\src/../resources/svg"
+         *   ]
+        ]
+         */
+>>>>>>> da8a6bc2 (.)
         $icons = Arr::map($icons, function (array $set, array|string $name) {
             $set['name'] = $name;
             $icons = [];
@@ -55,18 +75,26 @@ class GetAllIconsAction
             foreach ($set['paths'] as $path) {
                 foreach (File::allFiles($path) as $file) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     // Simply ignore files that aren't SVGs
 =======
                     // Ignora file che non sono SVG
 >>>>>>> 0238e98d (.)
+=======
+                    // Simply ignore files that aren't SVGs
+>>>>>>> da8a6bc2 (.)
                     if ('svg' !== $file->getExtension()) {
                         continue;
                     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
 =======
 >>>>>>> 0238e98d (.)
+=======
+                    // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
+>>>>>>> da8a6bc2 (.)
                     $iconName = str($file->getPathname())
                         ->after($path.DIRECTORY_SEPARATOR)
                         ->replace(DIRECTORY_SEPARATOR, '.')

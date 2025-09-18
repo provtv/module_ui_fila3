@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['post'])
 =======
 @props(['post'])
 >>>>>>> 0238e98d (.)
+=======
+@props(['post'])
+>>>>>>> da8a6bc2 (.)
 
 <div>
     <a class="block text-black" href="{{ route('post.show', ['slug' => $post->slug]) }}">

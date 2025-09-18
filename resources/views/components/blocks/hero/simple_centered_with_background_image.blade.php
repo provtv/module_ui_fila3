@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['title', 'text', 'background'])
 =======
 @props(['title', 'text', 'background'])
 >>>>>>> 0238e98d (.)
+=======
+@props(['title', 'text', 'background'])
+>>>>>>> da8a6bc2 (.)
 
 <div class="bg-gray-900">
     <div class="relative isolate overflow-hidden pt-14">

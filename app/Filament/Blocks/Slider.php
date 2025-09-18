@@ -10,6 +10,9 @@ use Modules\UI\Filament\Forms\Components\RadioImage;
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 use Modules\Xot\Actions\View\GetViewsSiblingsAndSelfAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> da8a6bc2 (.)
 
 class Slider
 {
@@ -27,6 +30,7 @@ class Slider
         return Block::make($name)
             ->schema(
                 [
+<<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
@@ -40,6 +44,8 @@ class Slider extends XotBaseBlock
         return [
 
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                     TextInput::make('method')
 
                         ->hint('Inserisci il nome del metodo da richiamare nel tema')
@@ -53,6 +59,7 @@ class Slider extends XotBaseBlock
                     RadioImage::make('view')
                         ->options($options),
                 ]
+<<<<<<< HEAD
 <<<<<<< HEAD
             )
             ->columns(1);
@@ -74,4 +81,9 @@ class Slider extends XotBaseBlock
         ;
 >>>>>>> 0238e98d (.)
     }
+=======
+            )
+            ->columns(1);
+    }
+>>>>>>> da8a6bc2 (.)
 }

@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['post'])
 =======
 @props(['post'])
 >>>>>>> 0238e98d (.)
+=======
+@props(['post'])
+>>>>>>> da8a6bc2 (.)
 
 @if ($post->published_at)
     Published on {{ $post->published_at->format('M jS, Y') }} —

@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://flowbite.com/docs/components/carousel/#animation --}}
 =======
 {{-- https://flowbite.com/docs/components/carousel/#animation --}}
 >>>>>>> 0238e98d (.)
+=======
+{{-- https://flowbite.com/docs/components/carousel/#animation --}}
+>>>>>>> da8a6bc2 (.)
 <div id="animation-carousel" class="relative w-full" data-carousel="static">
     <!-- Carousel wrapper -->
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">

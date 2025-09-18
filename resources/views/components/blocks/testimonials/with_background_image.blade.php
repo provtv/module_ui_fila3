@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 class="bg-white py-16 sm:py-24">
 =======
 <div class="bg-white py-16 sm:py-24">
 >>>>>>> 0238e98d (.)
+=======
+<div class="bg-white py-16 sm:py-24">
+>>>>>>> da8a6bc2 (.)
     <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div class="relative overflow-hidden bg-gray-900 px-6 py-20 shadow-xl sm:rounded-3xl sm:px-10 sm:py-24 md:px-12 lg:px-20">
         <img class="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0" src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="">

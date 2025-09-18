@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['user' => auth()->user()])
 
 <div class="relative">
@@ -59,3 +60,8 @@ s(['user' => auth()->user()])
   profile dropdown ui
 </div>
 >>>>>>> 0238e98d (.)
+=======
+<div>
+  profile dropdown ui
+</div>
+>>>>>>> da8a6bc2 (.)

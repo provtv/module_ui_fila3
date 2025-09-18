@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
  charset="utf-8">
 =======
 <meta charset="utf-8">
 >>>>>>> 0238e98d (.)
+=======
+<meta charset="utf-8">
+>>>>>>> da8a6bc2 (.)
 <meta name="application-name" content="{{ $_theme->metatag('sitename') }}">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">

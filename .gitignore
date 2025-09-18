@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ==============================================
 # LARAXOT MODULE UI - .GITIGNORE
 # ==============================================
@@ -145,6 +146,8 @@ design_notes.txt
 # END OF UI .GITIGNORE
 # ==============================================
 =======
+=======
+>>>>>>> da8a6bc2 (.)
 /vendor
 *.lock
 /build
@@ -185,7 +188,10 @@ cache/
 .php-cs-fixer.cache
 *.exe
 *:Zone.Identifier
+<<<<<<< HEAD
 
 # File di log
 *.log
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)

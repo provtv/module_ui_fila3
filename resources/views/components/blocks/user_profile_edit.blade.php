@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['title' => 'Modifica Profilo'])
 
 <div class="bg-white p-6 rounded-lg shadow-md">
@@ -19,6 +20,8 @@ s(['title' => 'Modifica Profilo'])
                            name="name"
                            id="name"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
 @props(['title' => 'Modifica Profilo'])
 
 <div class="bg-white p-6 rounded-lg shadow-md">
@@ -38,13 +41,17 @@ s(['title' => 'Modifica Profilo'])
                     <input type="text" 
                            name="name" 
                            id="name" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                            value="{{ old('name', $user->name) }}"
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                     @error('name')
                         <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
                     @enderror
                 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
                 <div>
@@ -65,6 +72,8 @@ s(['title' => 'Modifica Profilo'])
                            name="email"
                            id="email"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 
                 <div>
                     <label for="surname" class="block text-sm font-medium text-gray-700">Cognome</label>
@@ -83,13 +92,17 @@ s(['title' => 'Modifica Profilo'])
                     <input type="email" 
                            name="email" 
                            id="email" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                            value="{{ old('email', $user->email) }}"
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                     @error('email')
                         <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
                     @enderror
                 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
                 <div>
@@ -98,19 +111,25 @@ s(['title' => 'Modifica Profilo'])
                            name="phone"
                            id="phone"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 
                 <div>
                     <label for="phone" class="block text-sm font-medium text-gray-700">Telefono</label>
                     <input type="tel" 
                            name="phone" 
                            id="phone" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                            value="{{ old('phone', $user->phone) }}"
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                     @error('phone')
                         <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
                     @enderror
                 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
                 <div>
@@ -119,19 +138,25 @@ s(['title' => 'Modifica Profilo'])
                            name="birth_date"
                            id="birth_date"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 
                 <div>
                     <label for="birth_date" class="block text-sm font-medium text-gray-700">Data di Nascita</label>
                     <input type="date" 
                            name="birth_date" 
                            id="birth_date" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                            value="{{ old('birth_date', $user->birth_date->format('Y-m-d')) }}"
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                     @error('birth_date')
                         <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
                     @enderror
                 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
                 <div>
@@ -140,13 +165,18 @@ s(['title' => 'Modifica Profilo'])
                            name="fiscal_code"
                            id="fiscal_code"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 
                 <div>
                     <label for="fiscal_code" class="block text-sm font-medium text-gray-700">Codice Fiscale</label>
                     <input type="text" 
                            name="fiscal_code" 
                            id="fiscal_code" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                            value="{{ old('fiscal_code', $user->fiscal_code) }}"
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                     @error('fiscal_code')
@@ -155,6 +185,7 @@ s(['title' => 'Modifica Profilo'])
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         <!-- Indirizzo -->
@@ -168,6 +199,8 @@ s(['title' => 'Modifica Profilo'])
                            name="address[street]"
                            id="street"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
         
         <!-- Indirizzo -->
         <div>
@@ -179,13 +212,17 @@ s(['title' => 'Modifica Profilo'])
                     <input type="text" 
                            name="address[street]" 
                            id="street" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                            value="{{ old('address.street', $user->address->street) }}"
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                     @error('address.street')
                         <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
                     @enderror
                 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
                 <div>
@@ -194,19 +231,25 @@ s(['title' => 'Modifica Profilo'])
                            name="address[city]"
                            id="city"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 
                 <div>
                     <label for="city" class="block text-sm font-medium text-gray-700">Città</label>
                     <input type="text" 
                            name="address[city]" 
                            id="city" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                            value="{{ old('address.city', $user->address->city) }}"
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                     @error('address.city')
                         <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
                     @enderror
                 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
                 <div>
@@ -215,19 +258,25 @@ s(['title' => 'Modifica Profilo'])
                            name="address[province]"
                            id="province"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 
                 <div>
                     <label for="province" class="block text-sm font-medium text-gray-700">Provincia</label>
                     <input type="text" 
                            name="address[province]" 
                            id="province" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                            value="{{ old('address.province', $user->address->province) }}"
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                     @error('address.province')
                         <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
                     @enderror
                 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
                 <div>
@@ -236,13 +285,18 @@ s(['title' => 'Modifica Profilo'])
                            name="address[postal_code]"
                            id="postal_code"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 
                 <div>
                     <label for="postal_code" class="block text-sm font-medium text-gray-700">CAP</label>
                     <input type="text" 
                            name="address[postal_code]" 
                            id="postal_code" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                            value="{{ old('address.postal_code', $user->address->postal_code) }}"
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                     @error('address.postal_code')
@@ -251,6 +305,7 @@ s(['title' => 'Modifica Profilo'])
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         <!-- Informazioni Mediche -->
@@ -264,6 +319,8 @@ s(['title' => 'Modifica Profilo'])
                            name="medical_info[primary_doctor]"
                            id="primary_doctor"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
         
         <!-- Informazioni Mediche -->
         <div>
@@ -275,7 +332,10 @@ s(['title' => 'Modifica Profilo'])
                     <input type="text" 
                            name="medical_info[primary_doctor]" 
                            id="primary_doctor" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                            value="{{ old('medical_info.primary_doctor', $user->medical_info->primary_doctor) }}"
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                     @error('medical_info.primary_doctor')
@@ -283,16 +343,22 @@ s(['title' => 'Modifica Profilo'])
                     @enderror
                 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                 <div>
                     <label for="blood_type" class="block text-sm font-medium text-gray-700">Gruppo Sanguigno</label>
                     <select name="medical_info[blood_type]"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 
                 <div>
                     <label for="blood_type" class="block text-sm font-medium text-gray-700">Gruppo Sanguigno</label>
                     <select name="medical_info[blood_type]" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                             id="blood_type"
                             class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                         <option value="">Seleziona gruppo sanguigno</option>
@@ -310,16 +376,22 @@ s(['title' => 'Modifica Profilo'])
                     @enderror
                 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                 <div>
                     <label for="allergies" class="block text-sm font-medium text-gray-700">Allergie</label>
                     <textarea name="medical_info[allergies]"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 
                 <div>
                     <label for="allergies" class="block text-sm font-medium text-gray-700">Allergie</label>
                     <textarea name="medical_info[allergies]" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                               id="allergies"
                               rows="3"
                               class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">{{ old('medical_info.allergies', $user->medical_info->allergies) }}</textarea>
@@ -328,16 +400,22 @@ s(['title' => 'Modifica Profilo'])
                     @enderror
                 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                 <div>
                     <label for="chronic_conditions" class="block text-sm font-medium text-gray-700">Patologie Croniche</label>
                     <textarea name="medical_info[chronic_conditions]"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 
                 <div>
                     <label for="chronic_conditions" class="block text-sm font-medium text-gray-700">Patologie Croniche</label>
                     <textarea name="medical_info[chronic_conditions]" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                               id="chronic_conditions"
                               rows="3"
                               class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">{{ old('medical_info.chronic_conditions', $user->medical_info->chronic_conditions) }}</textarea>
@@ -347,6 +425,7 @@ s(['title' => 'Modifica Profilo'])
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         <!-- Azioni -->
@@ -358,6 +437,8 @@ s(['title' => 'Modifica Profilo'])
 
             <button type="submit"
 =======
+=======
+>>>>>>> da8a6bc2 (.)
         
         <!-- Azioni -->
         <div class="flex justify-end space-x-4">
@@ -367,14 +448,21 @@ s(['title' => 'Modifica Profilo'])
             </a>
             
             <button type="submit" 
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                     class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
                 Salva Modifiche
             </button>
         </div>
     </form>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </div>
 =======
 </div> 
 >>>>>>> 0238e98d (.)
+=======
+</div> 
+>>>>>>> da8a6bc2 (.)

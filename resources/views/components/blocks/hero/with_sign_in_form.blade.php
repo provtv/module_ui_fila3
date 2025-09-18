@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <!--
 >>>>>>> 0238e98d (.)
+=======
+<!--
+>>>>>>> da8a6bc2 (.)
   This example requires some changes to your config:
 
   ```
@@ -15,6 +19,7 @@
   }
   ```
 -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 @props([
     'title' => 'Data to enrich your online business',
@@ -52,6 +57,8 @@
 
 =======
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
 <div class="relative overflow-hidden bg-gray-800">
     <div class="hidden sm:absolute sm:inset-0 sm:block" aria-hidden="true">
       <svg class="absolute bottom-0 right-0 mb-48 translate-x-1/2 transform text-gray-700 lg:top-0 lg:mb-0 lg:mt-28 xl:translate-x-0 xl:transform-none" width="364" height="384" viewBox="0 0 364 384" fill="none">
@@ -69,6 +76,7 @@
           <div class="flex flex-1 items-center">
             <div class="flex w-full items-center justify-between md:w-auto">
 <<<<<<< HEAD
+<<<<<<< HEAD
               @if($logoUrl)
                 <a href="#">
                   <span class="sr-only">{{ $logoAlt }}</span>
@@ -76,11 +84,16 @@
                 </a>
               @endif
 =======
+=======
+>>>>>>> da8a6bc2 (.)
               <a href="#">
                 <span class="sr-only">Your Company</span>
                 <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="">
               </a>
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
               <div class="-mr-2 flex items-center md:hidden">
                 <button type="button" class="focus-ring-inset relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-white" aria-expanded="false">
                   <span class="absolute -inset-0.5"></span>
@@ -93,6 +106,7 @@
             </div>
             <div class="hidden space-x-10 md:ml-10 md:flex">
 <<<<<<< HEAD
+<<<<<<< HEAD
               @foreach($navigation as $item)
                 <a href="{{ $item['url'] }}" class="font-medium text-white hover:text-gray-300">{{ $item['text'] }}</a>
               @endforeach
@@ -101,6 +115,8 @@
           <div class="hidden md:flex">
             <a href="{{ $loginUrl }}" class="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700">Log in</a>
 =======
+=======
+>>>>>>> da8a6bc2 (.)
               <a href="#" class="font-medium text-white hover:text-gray-300">Product</a>
               <a href="#" class="font-medium text-white hover:text-gray-300">Features</a>
               <a href="#" class="font-medium text-white hover:text-gray-300">Marketplace</a>
@@ -109,7 +125,10 @@
           </div>
           <div class="hidden md:flex">
             <a href="#" class="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700">Log in</a>
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
           </div>
         </nav>
 
@@ -156,6 +175,7 @@
             <div class="px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
               <div>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 @if($announcement)
                   <div class="hidden sm:mb-4 sm:flex sm:justify-center lg:justify-start">
                     <a href="{{ $announcement['link'] }}" class="flex items-center rounded-full bg-gray-900 p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base">
@@ -182,6 +202,8 @@
                   </div>
                 @endif
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                 <div class="hidden sm:mb-4 sm:flex sm:justify-center lg:justify-start">
                   <a href="#" class="flex items-center rounded-full bg-gray-900 p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base">
                     <span class="rounded-full bg-indigo-500 px-3 py-0.5 text-sm font-semibold leading-5 text-white">We're hiring</span>
@@ -191,7 +213,11 @@
                     </svg>
                   </a>
                 </div>
+<<<<<<< HEAD
                 <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">Data to enrich your8 online business</h1>
+=======
+                <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">Data to enrich your online business</h1>
+>>>>>>> da8a6bc2 (.)
                 <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua ad ad non deserunt sunt.</p>
                 <p class="mt-8 text-base font-semibold text-white sm:mt-10">Used by</p>
                 <div class="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
@@ -207,7 +233,10 @@
                     </div>
                   </div>
                 </div>
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
               </div>
             </div>
             <div class="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0">
@@ -217,6 +246,7 @@
                     <p class="text-sm font-medium text-gray-700">Sign in with</p>
 
                     <div class="mt-1 grid grid-cols-3 gap-3">
+<<<<<<< HEAD
 <<<<<<< HEAD
                       @foreach($socialProviders as $provider)
                         <div>
@@ -239,6 +269,8 @@
                         </div>
                       @endforeach
 =======
+=======
+>>>>>>> da8a6bc2 (.)
                       <div>
                         <a href="#" class="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-500 shadow-sm hover:bg-gray-50">
                           <span class="sr-only">Sign in with Facebook</span>
@@ -265,7 +297,10 @@
                           </svg>
                         </a>
                       </div>
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
                     </div>
                   </div>
 
@@ -280,10 +315,14 @@
 
                   <div class="mt-6">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <form action="{{ $formAction }}" method="{{ $formMethod }}" class="space-y-6">
 =======
                     <form action="#" method="POST" class="space-y-6">
 >>>>>>> 0238e98d (.)
+=======
+                    <form action="#" method="POST" class="space-y-6">
+>>>>>>> da8a6bc2 (.)
                       <div>
                         <label for="name" class="sr-only">Full name</label>
                         <input type="text" name="name" id="name" autocomplete="name" placeholder="Full name" required class="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
@@ -307,6 +346,7 @@
                 </div>
                 <div class="border-t-2 border-gray-200 bg-gray-50 px-6 py-6 sm:px-10">
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <p class="text-xs leading-5 text-gray-500">By signing up, you agree to our 
                     <a href="{{ $termsUrl }}" class="font-medium text-gray-900 hover:underline">Terms</a>, 
                     <a href="{{ $dataPolicyUrl }}" class="font-medium text-gray-900 hover:underline">Data Policy</a> and 
@@ -315,6 +355,9 @@
 =======
                   <p class="text-xs leading-5 text-gray-500">By signing up, you agree to our <a href="#" class="font-medium text-gray-900 hover:underline">Terms</a>, <a href="#" class="font-medium text-gray-900 hover:underline">Data Policy</a> and <a href="#" class="font-medium text-gray-900 hover:underline">Cookies Policy</a>.</p>
 >>>>>>> 0238e98d (.)
+=======
+                  <p class="text-xs leading-5 text-gray-500">By signing up, you agree to our <a href="#" class="font-medium text-gray-900 hover:underline">Terms</a>, <a href="#" class="font-medium text-gray-900 hover:underline">Data Policy</a> and <a href="#" class="font-medium text-gray-900 hover:underline">Cookies Policy</a>.</p>
+>>>>>>> da8a6bc2 (.)
                 </div>
               </div>
             </div>
@@ -324,6 +367,10 @@
     </div>
   </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
 >>>>>>> 0238e98d (.)
+=======
+  
+>>>>>>> da8a6bc2 (.)

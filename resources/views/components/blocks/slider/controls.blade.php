@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://flowbite.com/docs/components/carousel/#controls --}}
 =======
 {{-- https://flowbite.com/docs/components/carousel/#controls --}}
 >>>>>>> 0238e98d (.)
+=======
+{{-- https://flowbite.com/docs/components/carousel/#controls --}}
+>>>>>>> da8a6bc2 (.)
 
 
 <div id="controls-carousel" class="relative w-full" data-carousel="static">

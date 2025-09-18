@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['title', 'subtitle', 'image', 'cta_text', 'cta_link'])
 =======
 @props(['title', 'subtitle', 'image', 'cta_text', 'cta_link'])
 >>>>>>> 0238e98d (.)
+=======
+@props(['title', 'subtitle', 'image', 'cta_text', 'cta_link'])
+>>>>>>> da8a6bc2 (.)
 
 <section class="relative bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto">

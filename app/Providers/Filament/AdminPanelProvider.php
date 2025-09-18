@@ -6,6 +6,7 @@ namespace Modules\UI\Providers\Filament;
 
 use Filament\Panel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\Assets\Js;
 use Filament\Support\Assets\Css;
 use Filament\Support\Facades\FilamentAsset;
@@ -13,11 +14,16 @@ use Filament\SpatieLaravelTranslatablePlugin;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 //use LaraZeus\Bolt\BoltPlugin;
 =======
+=======
+>>>>>>> da8a6bc2 (.)
 use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
@@ -26,9 +32,12 @@ class AdminPanelProvider extends XotBasePanelProvider
     public function panel(Panel $panel): Panel
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $panel=parent::panel($panel);
 =======
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
         // FilamentAsset::register(
         //     [
         //         Css::make('filament-navigation-styles', __DIR__.'/../../resources/dist/plugin.css'),
@@ -36,6 +45,7 @@ class AdminPanelProvider extends XotBasePanelProvider
         //     ],
         //     'filament-navigation'
         // );
+<<<<<<< HEAD
 <<<<<<< HEAD
         /*
         $spatieLaravelTranslatablePlugin = SpatieLaravelTranslatablePlugin::make()
@@ -55,5 +65,9 @@ class AdminPanelProvider extends XotBasePanelProvider
 
         return parent::panel($panel);
 >>>>>>> 0238e98d (.)
+=======
+
+        return parent::panel($panel);
+>>>>>>> da8a6bc2 (.)
     }
 }

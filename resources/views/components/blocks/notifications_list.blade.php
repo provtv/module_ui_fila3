@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['title' => 'Notifiche'])
 =======
 @props(['title' => 'Notifiche'])
 >>>>>>> 0238e98d (.)
+=======
+@props(['title' => 'Notifiche'])
+>>>>>>> da8a6bc2 (.)
 
 <div class="bg-white p-6 rounded-lg shadow-md">
     <h2 class="text-xl font-semibold mb-4">{{ $title }}</h2>

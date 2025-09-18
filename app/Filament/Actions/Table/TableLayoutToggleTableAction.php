@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\UI\Filament\Actions\Table;
 
 <<<<<<< HEAD
@@ -16,6 +17,10 @@ class TableLayoutToggleTableAction extends Action
     use TableLayoutTrait;
 
 =======
+=======
+namespace Modules\UI\app\Filament\Actions\Table;
+
+>>>>>>> da8a6bc2 (.)
 use Filament\Tables\Actions\Action;
 use Illuminate\Support\Facades\Session;
 use Modules\UI\Enums\TableLayoutEnum;
@@ -30,11 +35,15 @@ interface HasTableLayout
 
 class TableLayoutToggleTableAction extends Action
 {
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
     protected function setUp(): void
     {
         parent::setUp();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         $current = $this->getCurrentLayout();
 
@@ -70,6 +79,8 @@ class TableLayoutToggleTableAction extends Action
     {
         return 'table_layout_toggle';
 =======
+=======
+>>>>>>> da8a6bc2 (.)
         $this
             ->name('layout')
             ->label('Cambia Layout')
@@ -91,6 +102,9 @@ class TableLayoutToggleTableAction extends Action
     public static function make(?string $name = null): static
     {
         return parent::make($name ?? 'layout');
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
     }
 }

@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['title' => 'Appuntamenti'])
 =======
 @props(['title' => 'Appuntamenti'])
 >>>>>>> 0238e98d (.)
+=======
+@props(['title' => 'Appuntamenti'])
+>>>>>>> da8a6bc2 (.)
 
 <div class="bg-white p-6 rounded-lg shadow-md">
     <h2 class="text-xl font-semibold mb-4">{{ $title }}</h2>
@@ -60,10 +64,14 @@ s(['title' => 'Appuntamenti'])
                         <p class="text-sm text-gray-600">
                             <span class="font-medium">Data:</span> 
 <<<<<<< HEAD
+<<<<<<< HEAD
                             {{ $appointment->starts_at->format('d/m/Y') }}
 =======
                             {{ $appointment->date->format('d/m/Y') }}
 >>>>>>> 0238e98d (.)
+=======
+                            {{ $appointment->date->format('d/m/Y') }}
+>>>>>>> da8a6bc2 (.)
                         </p>
                         <p class="text-sm text-gray-600">
                             <span class="font-medium">Orario:</span> 
@@ -128,7 +136,11 @@ function confirmCancel(appointmentId) {
 }
 </script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 @endpush 
 =======
 @endpush 
 >>>>>>> 0238e98d (.)
+=======
+@endpush 
+>>>>>>> da8a6bc2 (.)

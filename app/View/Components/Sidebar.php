@@ -12,13 +12,19 @@ use Modules\Xot\Actions\GetViewAction;
 class Sidebar extends Component
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
+=======
+>>>>>>> da8a6bc2 (.)
     public function __construct(
         public Collection $collection,
         // public string $tpl = 'v1'
     ) {
+<<<<<<< HEAD
 >>>>>>> 0238e98d (.)
+=======
+>>>>>>> da8a6bc2 (.)
     }
 
     /**

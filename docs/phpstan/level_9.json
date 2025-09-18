@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 {"totals":{"errors":0,"file_errors":1},"files":{"/var/www/html/<nome progetto>/laravel/Modules/UI/app/Providers/UIServiceProvider.php":{"errors":1,"messages":[{"message":"Parameter #2 $path of function module_path expects string, mixed given.","line":33,"ignorable":true,"identifier":"argument.type"}]}},"errors":[]}
 aurmich/dev
@@ -38,3 +39,6 @@ aurmich/dev
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
 >>>>>>> 0238e98d (.)
+=======
+{"totals":{"errors":0,"file_errors":1},"files":{"/var/www/html/saluteora/laravel/Modules/UI/app/Providers/UIServiceProvider.php":{"errors":1,"messages":[{"message":"Parameter #2 $path of function module_path expects string, mixed given.","line":33,"ignorable":true,"identifier":"argument.type"}]}},"errors":[]}
+>>>>>>> da8a6bc2 (.)

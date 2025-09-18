@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 lament-widgets::widget id="overlook-widget">
 =======
 <x-filament-widgets::widget id="overlook-widget">
 >>>>>>> 0238e98d (.)
+=======
+<x-filament-widgets::widget id="overlook-widget">
+>>>>>>> da8a6bc2 (.)
 
     <x-filament::section class="relative overflow-hidden overlook-card bg-gradient-to-tr group">
 

@@ -29,17 +29,25 @@ trait TableLayoutTrait
         $this->resetTable();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> 0238e98d (.)
+=======
+    
+>>>>>>> da8a6bc2 (.)
     public function resetTable(): void
     {
         // Implementazione predefinita - le classi che usano questo trait dovrebbero sovrascrivere questo metodo
         $this->dispatch('reset-table');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 } 
 =======
 }
 >>>>>>> 0238e98d (.)
+=======
+} 
+>>>>>>> da8a6bc2 (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -10,12 +11,15 @@
 
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+>>>>>>> da8a6bc2 (.)
 # Rapporto PHPStan Livello 4 per il modulo UI
 
 Data analisi: 2025-04-15 22:00:59
 
 🎉 **Congratulazioni!** Nessun errore trovato a questo livello.
 <<<<<<< HEAD
+<<<<<<< HEAD
 aurmich/dev
 =======
 <<<<<<< HEAD
@@ -27,3 +31,5 @@ aurmich/dev
 aurmich/dev
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+>>>>>>> da8a6bc2 (.)

@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 s(['blocks'])
 =======
 @props(['blocks'])
 >>>>>>> 0238e98d (.)
+=======
+@props(['blocks'])
+>>>>>>> da8a6bc2 (.)
 
 @if ($blocks)
     <div>
