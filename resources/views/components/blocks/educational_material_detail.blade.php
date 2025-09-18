@@ -1,4 +1,4 @@
-@props(['material'])
+s(['material'])
 
 <div class="bg-white p-6 rounded-lg shadow-md">
     <!-- Header -->

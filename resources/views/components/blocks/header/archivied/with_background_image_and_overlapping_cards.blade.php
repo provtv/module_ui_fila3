@@ -1,4 +1,4 @@
-<div class="bg-white">
+class="bg-white">
     <!-- Header -->
     <div class="relative bg-gray-800 pb-32">
       <div class="absolute inset-0">

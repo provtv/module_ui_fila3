@@ -1,4 +1,4 @@
-{{-- resources/views/forms/components/radio-collection-item.blade.php --}}
+resources/views/forms/components/radio-collection-item.blade.php --}}
 {{-- Template di esempio per un item - personalizzalo secondo le tue esigenze --}}
 <div class="flex items-center">
     @if(isset($item->image))

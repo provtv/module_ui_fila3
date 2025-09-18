@@ -1,4 +1,3 @@
-{{--
     Studio Selector Component - Selezione semplice studio con pulsanti
     
     Props:

@@ -1,4 +1,4 @@
-@props(['image' => ''])
+s(['image' => ''])
 
 @php
     $background = $image ? 'bg-black' : 'bg-gray-100';

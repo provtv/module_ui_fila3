@@ -1,4 +1,3 @@
-@php
     $fields=$getFields();
     $record=$getRecord();
 @endphp

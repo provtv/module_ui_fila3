@@ -1,4 +1,3 @@
-{{-- 
     Componente separatore per la lista dropdown di Filament 
     Questo componente aggiunge una linea di separazione visiva all'interno dei dropdown.
 --}}

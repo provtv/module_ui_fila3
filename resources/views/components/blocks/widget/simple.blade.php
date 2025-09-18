@@ -1,4 +1,4 @@
-@props(['widget'])
+s(['widget'])
 <div>
     {{--  
     <x-dynamic-component :component="$widget" />

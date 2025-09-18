@@ -1,4 +1,4 @@
-<header class="w-full">
+er class="w-full">
     <div class="relative z-20 flex items-center justify-between w-full h-12 px-6 mx-auto">
         <div x-data="{ mobileMenuOpen: false }" class="relative flex items-center md:space-x-2 text-neutral-800">
             <div class="relative z-50 flex items-center w-auto h-full">

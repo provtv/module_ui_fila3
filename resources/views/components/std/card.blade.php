@@ -1,4 +1,4 @@
-@props(['post'])
+s(['post'])
 
 <div>
     <a class="block text-black" href="{{ route('post.show', ['slug' => $post->slug]) }}">

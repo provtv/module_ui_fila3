@@ -6,8 +6,7 @@ use Illuminate\View\Component;
 
 test('ui components can be rendered', function () {
     $component = new class extends Component {
-        public function render()
-        {
+        public function render(): void {
             return view('ui::components.ui.button');
         }
     };

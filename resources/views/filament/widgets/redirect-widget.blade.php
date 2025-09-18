@@ -1,4 +1,3 @@
-@php
     header("Location: $to");
     exit();
 @endphp

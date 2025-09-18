@@ -1,4 +1,4 @@
-<section class="bg-white px-6 py-24 sm:py-32 lg:px-8">
+ion class="bg-white px-6 py-24 sm:py-32 lg:px-8">
     <figure class="mx-auto max-w-2xl">
       <p class="sr-only">5 out of 5 stars</p>
       <div class="flex gap-x-1 text-indigo-600">

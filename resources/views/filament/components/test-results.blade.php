@@ -1,4 +1,4 @@
-@props(['results' => null])
+s(['results' => null])
 
 @if ($results)
     <div

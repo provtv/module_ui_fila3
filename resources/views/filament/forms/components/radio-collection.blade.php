@@ -1,4 +1,4 @@
-{{-- resources/views/forms/components/radio-collection.blade.php --}}
+resources/views/forms/components/radio-collection.blade.php --}}
 <x-dynamic-component :component="$getFieldWrapperView()" :field="$field">
     <div class="space-y-2">
         @foreach($getOptions() as $option)

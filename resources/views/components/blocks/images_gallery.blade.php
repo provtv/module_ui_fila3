@@ -1,4 +1,3 @@
-@php
     $data=Arr::get($block,'data.gallery.0',null);
     if($data==null){
       return ;

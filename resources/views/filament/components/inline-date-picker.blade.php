@@ -1,4 +1,3 @@
-<div
     x-data="{
         selectedDate: $wire.entangle('{{ $getStatePath() }}').defer,
         calendar: @js($getCalendarData()),

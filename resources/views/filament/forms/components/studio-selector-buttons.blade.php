@@ -1,4 +1,4 @@
-{{-- Componente per la selezione di studi odontoiatrici tramite pulsanti --}}
+Componente per la selezione di studi odontoiatrici tramite pulsanti --}}
 <x-dynamic-component
     :component="$getFieldWrapperView()"
     :field="$field"

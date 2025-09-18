@@ -1,4 +1,4 @@
-<x-dynamic-component :component="$getFieldWrapperView()" :field="$field">
+namic-component :component="$getFieldWrapperView()" :field="$field">
     @php
         $id = $getId();
         $isDisabled = $isDisabled();

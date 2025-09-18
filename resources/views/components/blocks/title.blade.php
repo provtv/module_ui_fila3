@@ -1,4 +1,4 @@
-@props(['text', 'level'])
+s(['text', 'level'])
 @if($level != null)
     <{{ $level }}>{{ $text }}</{{ $level }}>
 @else

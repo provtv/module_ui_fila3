@@ -1,4 +1,4 @@
-@props([
+s([
     'name' => null,
     'class' => '',
 ])

@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+
+
 namespace Modules\UI\Filament\Blocks;
 
 use Filament\Forms\Components\RichEditor;
@@ -9,6 +13,7 @@ final class Page extends XotBaseBlock
 {
     public static function getFormSchema(): array
     {
+        /** @var array<string, \Filament\Forms\Components\Component> */
         return [
             RichEditor::make('content')
                 ->required()

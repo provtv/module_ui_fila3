@@ -1,4 +1,3 @@
-{{--
 /**
  * State Icons Split Component
  * 

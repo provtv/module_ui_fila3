@@ -1,4 +1,3 @@
-{{--
 <div>
     @foreach ($widgets as $widget)
         @livewire($widget['class'], $widget['properties'])

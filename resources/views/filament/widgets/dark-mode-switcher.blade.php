@@ -1,4 +1,4 @@
-<div class="dark-mode-switcher-widget">
+class="dark-mode-switcher-widget">
     <button 
         x-data="{ darkMode: {{ $darkMode ? 'true' : 'false' }} }"
         @click="

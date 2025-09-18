@@ -1,3 +1,3 @@
-@props(['text'])
+s(['text'])
 
 {!! $text !!}

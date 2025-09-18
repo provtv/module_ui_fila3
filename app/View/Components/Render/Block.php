@@ -18,11 +18,7 @@ class Block extends Component
 {
     public ?string $view = null;
 
-    public function __construct(
-        public array $block,
-        public ?Model $model = null,
-        public string $tpl = '',
-    ) {
+    public function __construct(): void {
         $view = Arr::get($this->block, 'data.view', null);
         if (null == $view) {
             $view = 'ui::empty';

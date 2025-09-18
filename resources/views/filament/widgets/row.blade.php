@@ -1,4 +1,3 @@
-@php
     $columns = $this->getColumns();
 @endphp
 

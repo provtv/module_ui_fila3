@@ -23,8 +23,7 @@ class DarkModeSwitcher extends Component
     /**
      * Crea una nuova istanza del componente.
      */
-    public function __construct()
-    {
+    public function __construct(): void {
         $this->widget = new DarkModeSwitcherWidget;
     }
 

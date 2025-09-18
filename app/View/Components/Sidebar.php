@@ -11,10 +11,7 @@ use Modules\Xot\Actions\GetViewAction;
 
 class Sidebar extends Component
 {
-    public function __construct(
-        public Collection $collection,
-        // public string $tpl = 'v1'
-    ) {
+    public function __construct(): void {
     }
 
     /**

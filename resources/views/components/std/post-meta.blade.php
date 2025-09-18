@@ -1,4 +1,4 @@
-@props(['post'])
+s(['post'])
 
 @if ($post->published_at)
     Published on {{ $post->published_at->format('M jS, Y') }} —

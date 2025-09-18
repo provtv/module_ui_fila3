@@ -1,4 +1,4 @@
-{{-- https://flowbite.com/docs/components/carousel/#indicators --}}
+https://flowbite.com/docs/components/carousel/#indicators --}}
 
 
 <div id="indicators-carousel" class="relative w-full" data-carousel="static">

@@ -1,4 +1,4 @@
-@props(['href'])
+s(['href'])
 <x-filament::button
     href="{{ $href }}"
     tag="a"

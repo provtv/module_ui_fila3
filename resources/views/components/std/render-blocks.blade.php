@@ -1,4 +1,4 @@
-@props(['blocks'])
+s(['blocks'])
 
 @foreach ($blocks as $block)
     {{-- OBSOLETE

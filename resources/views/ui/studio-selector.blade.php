@@ -1,4 +1,4 @@
-{{-- Studio Selector Component - Card cliccabili per selezione studio --}}
+Studio Selector Component - Card cliccabili per selezione studio --}}
 <div 
     x-data="{
         selectedStudioId: @js($selectedStudioId ?? null),

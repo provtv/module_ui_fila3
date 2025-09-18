@@ -1,4 +1,3 @@
-@php
     $gridDirection = $getGridDirection() ?? 'column';
     $id = $getId();
     $isDisabled = $isDisabled();

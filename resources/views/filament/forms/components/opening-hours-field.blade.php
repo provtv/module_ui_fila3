@@ -1,4 +1,4 @@
-<x-dynamic-component
+namic-component
     :component="$getFieldWrapperView()"
     :field="$field"
 >

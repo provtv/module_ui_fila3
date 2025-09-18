@@ -17,8 +17,7 @@ class GetAllIconsAction
     /**
      * @return array
      */
-    public function execute(string $context = 'form')
-    {
+    public function execute(): void {
         $iconsFactory = App::make(IconFactory::class);
         
         // Uso reflection per accedere alle icone in modo sicuro

@@ -1,4 +1,3 @@
-{{--
     Studio Card Component - Visualizzazione informazioni studio odontoiatrico
     
     Props:

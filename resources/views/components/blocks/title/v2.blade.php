@@ -1,4 +1,4 @@
-@props(['text', 'level'])
+s(['text', 'level'])
 
 <div class="py-4">
     {{-- {{ dddx($article->category_id) }} --}}

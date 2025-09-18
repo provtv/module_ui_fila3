@@ -1,4 +1,4 @@
-@props(['title', 'text', 'background'])
+s(['title', 'text', 'background'])
 
 <div class="bg-gray-900">
     <div class="relative isolate overflow-hidden pt-14">

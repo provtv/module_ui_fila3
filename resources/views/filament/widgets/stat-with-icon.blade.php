@@ -1,4 +1,4 @@
-<x-filament-widgets::widget>
+lament-widgets::widget>
     <x-filament::section collapsible>
         <x-filament::grid lg='2'>
             <x-filament::grid.column >

@@ -1,3 +1,3 @@
-@props(['text', 'level'])
+s(['text', 'level'])
 
 <{{ $level }}>{{ $text }}</{{ $level }}>

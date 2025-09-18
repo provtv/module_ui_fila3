@@ -1,4 +1,4 @@
-@props(['blocks'])
+s(['blocks'])
 
 @if ($blocks)
     <div>

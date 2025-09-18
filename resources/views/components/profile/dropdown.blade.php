@@ -1,4 +1,4 @@
-@props(['user' => auth()->user()])
+s(['user' => auth()->user()])
 
 <div class="relative">
     <x-filament::dropdown>

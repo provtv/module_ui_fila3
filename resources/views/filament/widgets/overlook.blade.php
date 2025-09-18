@@ -1,4 +1,4 @@
-<x-filament-widgets::widget id="overlook-widget">
+lament-widgets::widget id="overlook-widget">
 
     <x-filament::section class="relative overflow-hidden overlook-card bg-gradient-to-tr group">
 

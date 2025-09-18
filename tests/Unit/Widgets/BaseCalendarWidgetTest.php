@@ -49,8 +49,7 @@ class MockEventModel extends Model
 {
     protected $fillable = ['title', 'start', 'end', 'color'];
 
-    public function getTable()
-    {
+    public function getTable(): void {
         return 'mock_events';
     }
 }

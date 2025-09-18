@@ -1,4 +1,4 @@
-@props([
+s([
     'image' => false,
     'url' => false,
     'alt' => false,

@@ -1,4 +1,4 @@
-@props(['blocks'])
+s(['blocks'])
 {{-- Blocks  --}}
 @foreach ($blocks as $block)
     <x-render.block :block="$block" :model="$model" />

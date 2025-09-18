@@ -1,4 +1,4 @@
-{{-- https://flowbite.com/docs/components/carousel/#animation --}}
+https://flowbite.com/docs/components/carousel/#animation --}}
 <div id="animation-carousel" class="relative w-full" data-carousel="static">
     <!-- Carousel wrapper -->
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">

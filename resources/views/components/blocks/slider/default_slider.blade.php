@@ -1,4 +1,4 @@
-{{-- https://flowbite.com/docs/components/carousel/#default-slider --}}
+https://flowbite.com/docs/components/carousel/#default-slider --}}
 
 
 <div id="default-carousel" class="relative w-full" data-carousel="slide">

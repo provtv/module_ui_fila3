@@ -1,4 +1,4 @@
-<x-filament-forms::field-wrapper
+lament-forms::field-wrapper
 
     :label="$getLabel()"
 

@@ -1,4 +1,4 @@
-<div class="bg-white">
+class="bg-white">
     {{--
     <header>
       <div class="relative bg-white">

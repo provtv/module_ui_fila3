@@ -1,4 +1,4 @@
-@props(['label'])
+s(['label'])
 
 <button
     type="submit"

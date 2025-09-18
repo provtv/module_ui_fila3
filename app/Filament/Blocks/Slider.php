@@ -45,6 +45,7 @@ class Slider
 
     public static function getFormSchema(): array
     {
+        /** @var array<string, \Filament\Forms\Components\Component> */
         return [
             \Filament\Forms\Components\Select::make('layout')
                 ->options([

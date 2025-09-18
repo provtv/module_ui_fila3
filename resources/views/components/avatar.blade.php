@@ -1,4 +1,4 @@
-@props([
+s([
     'user' => null,
     'size' => 'md',
     'class' => '',

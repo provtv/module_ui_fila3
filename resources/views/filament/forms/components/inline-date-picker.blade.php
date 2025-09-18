@@ -1,4 +1,3 @@
-{{--
 /**
  * InlineDatePicker View - KISS Principle
  * 

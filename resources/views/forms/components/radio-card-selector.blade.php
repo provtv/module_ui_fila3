@@ -1,4 +1,4 @@
-{{-- Radio Card Selector Component --}}
+Radio Card Selector Component --}}
 @php
     $cards = $getCards();
     $sectionTitle = $getSectionTitle();

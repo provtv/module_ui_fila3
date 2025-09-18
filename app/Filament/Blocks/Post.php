@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+
+
 namespace Modules\UI\Filament\Blocks;
 
 use Filament\Forms\Components\RichEditor;
@@ -10,6 +14,7 @@ final class Post extends \Modules\Xot\Filament\Blocks\XotBaseBlock
 {
     public static function getFormSchema(): array
     {
+        /** @var array<string, \Filament\Forms\Components\Component> */
         return [
             TextInput::make('title')
                 ->required()

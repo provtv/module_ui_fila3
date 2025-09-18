@@ -1,4 +1,4 @@
-@props(['text'])
+s(['text'])
 
 {{-- {!! $text !!} --}}
 DEPRECATED

@@ -1,4 +1,4 @@
-@props([
+s([
     'item',
     'statePath',
     'disableNewChildRecordCreation',

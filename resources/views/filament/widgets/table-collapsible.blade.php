@@ -1,4 +1,4 @@
-<x-filament::widget>
+lament::widget>
     <x-filament::section collapsible collapsed wire:key="section-{{ $guid }}">
         <x-slot name="heading">
             {{ $title }}

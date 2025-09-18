@@ -56,6 +56,7 @@ class Image
 
     public static function getFormSchema(): array
     {
+        /** @var array<string, \Filament\Forms\Components\Component> */
         return [
             \Filament\Forms\Components\FileUpload::make('image')
                 ->required()

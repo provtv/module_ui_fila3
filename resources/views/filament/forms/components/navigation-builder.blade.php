@@ -1,4 +1,3 @@
-@php
     $disableNewRecordCreation = $disableNewRecordCreation ?? false;
     $disableNewChildRecordCreation = $disableNewChildRecordCreation ?? false;
     $disableRecordDeletion = $disableRecordDeletion ?? false;

@@ -1,4 +1,3 @@
-@php
     $statePath = $getStatePath();
     $selected = $getState();
 @endphp

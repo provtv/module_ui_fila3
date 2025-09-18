@@ -1,4 +1,4 @@
-@props(['title', 'subtitle', 'image', 'cta_text', 'cta_link'])
+s(['title', 'subtitle', 'image', 'cta_text', 'cta_link'])
 
 <section class="relative bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto">
